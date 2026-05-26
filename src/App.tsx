@@ -74,21 +74,6 @@ const MAX_BOUNDS: LatLngBoundsExpression = [
   [90, 180],
 ]
 
-function getArcPointAt(start: L.LatLng, end: L.LatLng, t: number): L.LatLng {
-  const midLat = (start.lat + end.lat) / 2
-  const midLng = (start.lng + end.lng) / 2
-  const dx = end.lng - start.lng
-  const dy = end.lat - start.lat
-  const len = Math.sqrt(dx * dx + dy * dy) || 1
-  const offset = 0.25 * len
-  const ctrlLat = midLat + (dx / len) * offset
-  const ctrlLng = midLng + (-dy / len) * offset
-
-  const lat = (1 - t) * (1 - t) * start.lat + 2 * (1 - t) * t * ctrlLat + t * t * end.lat
-  const lng = (1 - t) * (1 - t) * start.lng + 2 * (1 - t) * t * ctrlLng + t * t * end.lng
-  return L.latLng(lat, lng)
-}
-
 function getArcPoints(start: L.LatLng, end: L.LatLng, numPoints: number): L.LatLng[] {
   const midLat = (start.lat + end.lat) / 2
   const midLng = (start.lng + end.lng) / 2
@@ -150,6 +135,15 @@ function WorldMap() {
   const features = (geoData as GeoJSON.FeatureCollection).features
   const mapRef = useRef<Map | null>(null)
   const [hoveredCountry, setHoveredCountry] = useState<string | null>(null)
+  const selectedRef = useRef<string | null>(null)
+  const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
+
+  const setSelected = (name: string | null) => {
+    selectedRef.current = name
+    setSelectedCountry(name)
+  }
+
+  const activeCountry = selectedCountry || hoveredCountry
 
   const qualifiedCountries = useMemo(() => {
     const teams = squadData.world_cup_2026_squads.map((s) => s.team)
@@ -210,7 +204,7 @@ function WorldMap() {
     return grouped
   }, [countryCenters])
 
-  const visibleArcs = hoveredCountry ? (connectionArcs[hoveredCountry] || []) : []
+  const visibleArcs = activeCountry ? (connectionArcs[activeCountry] || []) : []
 
   const teamDestinations = useMemo(() => {
     const dests: Record<string, Set<string>> = {}
@@ -225,15 +219,15 @@ function WorldMap() {
   }, [connectionArcs])
 
   const focusedCountries = useMemo(() => {
-    if (!hoveredCountry) return null
+    if (!activeCountry) return null
     const set = new Set<string>()
-    set.add(hoveredCountry)
-    const dests = teamDestinations[hoveredCountry]
+    set.add(activeCountry)
+    const dests = teamDestinations[activeCountry]
     if (dests) {
       for (const d of dests) set.add(d)
     }
     return set
-  }, [hoveredCountry, teamDestinations])
+  }, [activeCountry, teamDestinations])
 
   function filterFeature(feature: GeoJSON.Feature | undefined): boolean {
     const name = feature?.properties?.name
@@ -268,9 +262,9 @@ function WorldMap() {
       })
       layer.on('click', (e: L.LeafletEvent) => {
         L.DomEvent.stop(e)
-        const map = mapRef.current
-        if (map) {
-          map.fitBounds((layer as L.Polyline).getBounds(), { padding: [20, 20], maxZoom: 6 })
+        if (name && qualifiedCountries.has(name)) {
+          const isSelecting = selectedRef.current !== name
+          setSelected(isSelecting ? name : null)
         }
       })
     }
@@ -287,7 +281,12 @@ function WorldMap() {
       zoomControl={false}
       attributionControl={false}
     >
-      <MapInit onMap={(m) => { mapRef.current = m }} />
+      <MapInit onMap={(m) => {
+        mapRef.current = m
+        m.on('click', () => {
+          setSelected(null)
+        })
+      }} />
       <TileLayer url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png" />
       <GeoJSON
         data={geoData}
@@ -297,7 +296,7 @@ function WorldMap() {
       />
       {visibleArcs.map((arc, i) => {
         const count = arc.players.length
-        const step = 1 / (count + 1)
+        const radius = 0.8 + count * 0.15
         return (
           <div key={i}>
             <Polyline
@@ -308,11 +307,13 @@ function WorldMap() {
               smoothFactor={1}
             />
             {arc.players.map((player, j) => {
-              const t = step * (j + 1)
+              const angle = (j / count) * Math.PI * 2 - Math.PI / 2
+              const lat = arc.to.lat + Math.cos(angle) * radius
+              const lng = arc.to.lng + Math.sin(angle) * radius
               return (
                 <CircleMarker
                   key={j}
-                  center={getArcPointAt(arc.from, arc.to, t)}
+                  center={L.latLng(lat, lng)}
                   radius={0}
                   fillOpacity={0}
                   opacity={0}
