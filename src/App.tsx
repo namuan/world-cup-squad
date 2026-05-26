@@ -119,7 +119,7 @@ type ConnectionArc = {
   toName: string
   color: string
   count: number
-  players: string[]
+  players: { name: string; club: string }[]
 }
 
 function MapInit({ onMap }: { onMap: (map: Map) => void }) {
@@ -167,7 +167,7 @@ function WorldMap() {
       if (!teamCenter) continue
 
       const teamColor = FLAG_COLORS[teamGeoName] || '#64748b'
-      const destMap: Record<string, { center: L.LatLng; players: string[] }> = {}
+      const destMap: Record<string, { center: L.LatLng; players: { name: string; club: string }[] }> = {}
 
       for (const player of squad.players) {
         const rawClub = player.club_country
@@ -180,7 +180,7 @@ function WorldMap() {
         if (!destMap[clubGeoName]) {
           destMap[clubGeoName] = { center: clubCenter, players: [] }
         }
-        destMap[clubGeoName].players.push(player.name)
+        destMap[clubGeoName].players.push({ name: player.name, club: player.club || 'Unknown' })
       }
 
       const arcs: ConnectionArc[] = []
@@ -320,7 +320,10 @@ function WorldMap() {
                   stroke={false}
                 >
                   <Tooltip permanent direction="center" className="player-label">
-                    {player}
+                    <div>{player.name}</div>
+                    <div style={{ fontWeight: 400, fontSize: 8, opacity: 0.7 }}>
+                      ({player.club})
+                    </div>
                   </Tooltip>
                 </CircleMarker>
               )

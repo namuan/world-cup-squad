@@ -45,5 +45,6 @@ body,
   font-weight: 600;
   font-family: system-ui, sans-serif;
   pointer-events: none;
-  white-space: nowrap;
+  text-align: center;
+  line-height: 1.3;
 }
