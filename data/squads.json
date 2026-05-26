@@ -1,0 +1,3942 @@
+{
+  "world_cup_2026_squads": [
+    {
+      "team": "Belgium",
+      "players": [
+        {
+          "name": "Thibaut Courtois",
+          "club": "Real Madrid",
+          "position": "Goalkeeper",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Senne Lammens",
+          "club": "Manchester United",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Mike Penders",
+          "club": "Racing Strasbourg",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Timothy Castagne",
+          "club": "Fulham",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Zeno Debast",
+          "club": "Sporting",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Maxim de Cuyper",
+          "club": "Brighton",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Koni de Winter",
+          "club": "AC Milan",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Brandon Mechele",
+          "club": "Club Brugge",
+          "position": "Defender",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Thomas Meunier",
+          "club": "Lille",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Nathan Ngoy",
+          "club": "Lille",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Joaquin Seys",
+          "club": "Club Brugge",
+          "position": "Defender",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Arthur Theate",
+          "club": "Eintracht Frankfurt",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Kevin de Bruyne",
+          "club": "Napoli",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Amadou Onana",
+          "club": "Aston Villa",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Nicolas Raskin",
+          "club": "Rangers",
+          "position": "Midfielder",
+          "club_country": "Scotland"
+        },
+        {
+          "name": "Youri Tielemans",
+          "club": "Aston Villa",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Hans Vanaken",
+          "club": "Club Brugge",
+          "position": "Midfielder",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Axel Witsel",
+          "club": "Girona",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Charles de Ketelaere",
+          "club": "Atalanta",
+          "position": "Forward",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Jeremy Doku",
+          "club": "Manchester City",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Matias Fernandez-Pardo",
+          "club": "Lille",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "club": "Napoli",
+          "position": "Forward",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Dodi Lukebakio",
+          "club": "Benfica",
+          "position": "Forward",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Diego Moreira",
+          "club": "Strasbourg",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Alexis Saelemaekers",
+          "club": "AC Milan",
+          "position": "Forward",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Leandro Trossard",
+          "club": "Arsenal",
+          "position": "Forward",
+          "club_country": "England"
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: Belgium name Romelu Lukaku in 26-man squad despite Napoli absence"
+    },
+    {
+      "team": "Bosnia-Herzegovina",
+      "players": [
+        {
+          "name": "Nikola Vasilj",
+          "club": "St Pauli",
+          "position": "Goalkeeper",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Martin Zlomislic",
+          "club": "Rijeka",
+          "position": "Goalkeeper",
+          "club_country": "Croatia"
+        },
+        {
+          "name": "Osman Hadzikic",
+          "club": "Slaven Belupo",
+          "position": "Goalkeeper",
+          "club_country": "Croatia"
+        },
+        {
+          "name": "Sead Kolasinac",
+          "club": "Atalanta",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Amar Dedic",
+          "club": "Benfica",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Nihad Mujakic",
+          "club": "Gaziantep",
+          "position": "Defender",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Nikola Katic",
+          "club": "Schalke 04",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Tarik Muharemovic",
+          "club": "Sassuolo",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Stjepan Radeljic",
+          "club": "Rijeka",
+          "position": "Defender",
+          "club_country": "Croatia"
+        },
+        {
+          "name": "Dennis Hadzikadunic",
+          "club": "Sampdoria",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Nidal Celik",
+          "club": "Lens",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Amir Hadziahmetovic",
+          "club": "Hull City",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Ivan Sunjic",
+          "club": "Pafos",
+          "position": "Midfielder",
+          "club_country": "Cyprus"
+        },
+        {
+          "name": "Ivan Basic",
+          "club": "Astana",
+          "position": "Midfielder",
+          "club_country": "Kazakhstan"
+        },
+        {
+          "name": "Dzenis Burnic",
+          "club": "Karlsruher SC",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Ermin Mahmic",
+          "club": "Slovan Liberec",
+          "position": "Midfielder",
+          "club_country": "Czech Republic"
+        },
+        {
+          "name": "Benjamin Tahirovic",
+          "club": "Brondby",
+          "position": "Midfielder",
+          "club_country": "Denmark"
+        },
+        {
+          "name": "Amar Memic",
+          "club": "Viktoria Plzen",
+          "position": "Midfielder",
+          "club_country": "Czech Republic"
+        },
+        {
+          "name": "Armin Gigovic",
+          "club": "Young Boys",
+          "position": "Midfielder",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Kerim Alajbegovic",
+          "club": "RB Salzburg",
+          "position": "Midfielder",
+          "club_country": "Austria"
+        },
+        {
+          "name": "Esmir Bajraktarevic",
+          "club": "PSV Eindhoven",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "club": "VfB Stuttgart",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Jovo Lukic",
+          "club": "Universitatea Cluj",
+          "position": "Forward",
+          "club_country": "Romania"
+        },
+        {
+          "name": "Samed Bazdar",
+          "club": "Jagiellonia Bialystok",
+          "position": "Forward",
+          "club_country": "Poland"
+        },
+        {
+          "name": "Haris Tabakovic",
+          "club": "Borussia Moenchengladbach",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Edin Dzeko",
+          "club": "Schalke 04",
+          "position": "Forward",
+          "club_country": "Germany"
+        }
+      ],
+      "player_count": 26,
+      "headline": "Bosnia World Cup squad: Edin Dzeko to join list of plays aged over 40 to play at a World Cup"
+    },
+    {
+      "team": "Brazil",
+      "players": [
+        {
+          "name": "Alisson",
+          "club": "Liverpool",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Ederson",
+          "club": "Fenerbahce",
+          "position": "Goalkeeper",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Weverton",
+          "club": "Gremio",
+          "position": "Goalkeeper",
+          "club_country": "Brazil"
+        },
+        {
+          "name": "Alex Sandro",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Danilo",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Leo Pereira",
+          "club": "Flamengo",
+          "position": "Defender",
+          "club_country": "Brazil"
+        },
+        {
+          "name": "Bremer",
+          "club": "Juventus",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Ibanez",
+          "club": "Al-Ahli",
+          "position": "Defender",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Wesley",
+          "club": "Roma",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Marquinhos",
+          "club": "Paris St-Germain",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Gabriel",
+          "club": "Arsenal",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Douglas Santos",
+          "club": "Zenit St. Petersburg",
+          "position": "Defender",
+          "club_country": "Russia"
+        },
+        {
+          "name": "Bruno Guimaraes",
+          "club": "Newcastle",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Casemiro",
+          "club": "Manchester United",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Danilo Santos",
+          "club": "Botafogo",
+          "position": "Midfielder",
+          "club_country": "Brazil"
+        },
+        {
+          "name": "Fabinho",
+          "club": "Al-Ittihad",
+          "position": "Midfielder",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Lucas Paqueta",
+          "club": "Flamengo",
+          "position": "Midfielder",
+          "club_country": "Brazil"
+        },
+        {
+          "name": "Endrick",
+          "club": "Lyon",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "club": "Arsenal",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Igor Thiago",
+          "club": "Brentford",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Matheus Cunha",
+          "club": "Manchester United",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Raphinha",
+          "club": "Barcelona",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Vinicius Junior",
+          "club": "Real Madrid",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Luiz Henrique",
+          "club": "Zenit St. Petersburg",
+          "position": "Forward",
+          "club_country": "Russia"
+        },
+        {
+          "name": "Neymar",
+          "club": "Santos",
+          "position": "Forward",
+          "club_country": "Brazil"
+        },
+        {
+          "name": "Rayan",
+          "club": "Bournemouth",
+          "position": "Forward",
+          "club_country": "England"
+        }
+      ],
+      "player_count": 26,
+      "headline": "2026 World Cup: Neymar named in Brazil&#x27;s 26-man squad"
+    },
+    {
+      "team": "Cape Verde",
+      "players": [
+        {
+          "name": "Vozinha",
+          "club": "Chaves",
+          "position": "Goalkeeper",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Marcio Rosa",
+          "club": "Montana",
+          "position": "Goalkeeper",
+          "club_country": "Bulgaria"
+        },
+        {
+          "name": "CJ dos Santos",
+          "club": "San Diego",
+          "position": "Goalkeeper",
+          "club_country": "USA"
+        },
+        {
+          "name": "Stopira",
+          "club": "Torreense",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Roberto Lopes",
+          "club": "Shamrock Rovers",
+          "position": "Defender",
+          "club_country": "Ireland"
+        },
+        {
+          "name": "Joao Paulo",
+          "club": "FCSB",
+          "position": "Defender",
+          "club_country": "Romania"
+        },
+        {
+          "name": "Diney",
+          "club": "Al Bataeh",
+          "position": "Defender",
+          "club_country": "UAE"
+        },
+        {
+          "name": "Logan Costa",
+          "club": "Villarreal",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Steven Moreira",
+          "club": "Columbus Crew",
+          "position": "Defender",
+          "club_country": "USA"
+        },
+        {
+          "name": "Wagner Pina",
+          "club": "Trabzonspor",
+          "position": "Defender",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Sidny Lopes Cabral",
+          "club": "Benfica",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Kelvin Pires",
+          "club": "SJK",
+          "position": "Defender",
+          "club_country": "Finland"
+        },
+        {
+          "name": "Jamiro Monteiro",
+          "club": "PEC Zwolle",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Kevin Pina",
+          "club": "Krasnodar",
+          "position": "Midfielder",
+          "club_country": "Russia"
+        },
+        {
+          "name": "Deroy Duarte",
+          "club": "Ludogorets",
+          "position": "Midfielder",
+          "club_country": "Bulgaria"
+        },
+        {
+          "name": "Telmo Arcanjo",
+          "club": "Vitoria Guimaraes",
+          "position": "Midfielder",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Laros Duarte",
+          "club": "Puskas Akademia",
+          "position": "Midfielder",
+          "club_country": "Hungary"
+        },
+        {
+          "name": "Yannick Semedo",
+          "club": "Farense",
+          "position": "Midfielder",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Ryan Mendes",
+          "club": "Igdir",
+          "position": "Forward",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Garry Rodrigues",
+          "club": "Apollon Limassol",
+          "position": "Forward",
+          "club_country": "Cyprus"
+        },
+        {
+          "name": "Willy Semedo",
+          "club": "Omonia",
+          "position": "Forward",
+          "club_country": "Cyprus"
+        },
+        {
+          "name": "Jovane Cabral",
+          "club": "Estrela Amadora",
+          "position": "Forward",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Gilson Tavares",
+          "club": "Akron Tolyatti",
+          "position": "Forward",
+          "club_country": "Russia"
+        },
+        {
+          "name": "Dailon Livramento",
+          "club": "Casa Pia",
+          "position": "Forward",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Helio Varela",
+          "club": "Maccabi Tel Aviv",
+          "position": "Forward",
+          "club_country": "Israel"
+        },
+        {
+          "name": "Nuno da Costa",
+          "club": "Istanbul Basaksehir",
+          "position": "Forward",
+          "club_country": "Turkey"
+        }
+      ],
+      "player_count": 26,
+      "headline": "2026 World Cup: Roberto Lopes of Shamrock Rovers named in Cape Verde squad"
+    },
+    {
+      "team": "Croatia",
+      "players": [
+        {
+          "name": "Dominik Livakovic",
+          "club": "Dinamo Zagreb",
+          "position": "Goalkeeper",
+          "club_country": "Croatia"
+        },
+        {
+          "name": "Dominik Kotarski",
+          "club": "Copenhagen",
+          "position": "Goalkeeper",
+          "club_country": "Denmark"
+        },
+        {
+          "name": "Ivor Pandur",
+          "club": "Hull City",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Josko Gvardiol",
+          "club": "Manchester City",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Duje Caleta-Car",
+          "club": "Real Sociedad",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Josip Sutalo",
+          "club": "Ajax Amsterdam",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Josip Stanisic",
+          "club": "Bayern Munich",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Marin Pongracic",
+          "club": "Fiorentina",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Martin Erlic",
+          "club": "Midtjylland",
+          "position": "Defender",
+          "club_country": "Denmark"
+        },
+        {
+          "name": "Luka Vuskovic",
+          "club": "Hamburg",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Luka Modric",
+          "club": "AC Milan",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Mateo Kovacic",
+          "club": "Manchester City",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Mario Pasalic",
+          "club": "Atalanta",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Nikola Vlasic",
+          "club": "Torino",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Luka Sucic",
+          "club": "Real Sociedad",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Martin Baturina",
+          "club": "Como",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Kristijan Jakic",
+          "club": "Augsburg",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Petar Sucic",
+          "club": "Inter Milan",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Nikola Moro",
+          "club": "Bologna",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Toni Fruk",
+          "club": "Rijeka",
+          "position": "Midfielder",
+          "club_country": "Croatia"
+        },
+        {
+          "name": "Ivan Perisic",
+          "club": "PSV Eindhoven",
+          "position": "Forward",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "club": "Hoffenheim",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Ante Budimir",
+          "club": "Osasuna",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Marco Pasalic",
+          "club": "Orlando City",
+          "position": "Forward",
+          "club_country": "USA"
+        },
+        {
+          "name": "Petar Musa",
+          "club": "Dallas",
+          "position": "Forward",
+          "club_country": "USA"
+        },
+        {
+          "name": "Igor Matanovic",
+          "club": "Freiburg",
+          "position": "Forward",
+          "club_country": "Germany"
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: Veteran midfielder Luka Modric named in Croatia squad"
+    },
+    {
+      "team": "Curacao",
+      "players": [
+        {
+          "name": "Tyrick Bodak",
+          "club": "SC Telstar",
+          "position": "Goalkeeper",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Trevor Doornbusch",
+          "club": "VVV-Venlo",
+          "position": "Goalkeeper",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Eloy Room",
+          "club": "Miami FC",
+          "position": "Goalkeeper",
+          "club_country": "USA"
+        },
+        {
+          "name": "Riechedly Bazoer",
+          "club": "Konyaspor",
+          "position": "Defender",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Joshua Brenet",
+          "club": "Kayserispor",
+          "position": "Defender",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Roshon Van Eijma",
+          "club": "RKC Waalwijk",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Sherel Floranus",
+          "club": "PEC Zwolle",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Deveron Fonville",
+          "club": "NEC Nijmegen",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Jurien Gaari",
+          "club": "Abha Club",
+          "position": "Defender",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Armando Obispo",
+          "club": "PSV Eindhoven",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Shurandy Sambo",
+          "club": "Sparta Rotterdam",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Juninho Bacuna",
+          "club": "FC Volendam",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Leandro Bacuna",
+          "club": "Igdır",
+          "position": "Midfielder",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Livano Comenencia",
+          "club": "FC Zurich",
+          "position": "Midfielder",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Kevin Felida",
+          "club": "FC Den Bosch",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Ar'Jany Martha",
+          "club": "Rotherham United",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Tyrese Noslin",
+          "club": "SC Telstar",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Godfried Roemeratoe",
+          "club": "RKC Waalwijk",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Jeremy Antonisse",
+          "club": "AE Kifisia",
+          "position": "Forward",
+          "club_country": "Greece"
+        },
+        {
+          "name": "Tahith Chong",
+          "club": "Sheffield United",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Kenji Gorré",
+          "club": "Maccabi Haifa",
+          "position": "Forward",
+          "club_country": "Israel"
+        },
+        {
+          "name": "Sontje Hansen",
+          "club": "Middlesbrough",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Gervane Kastaneer",
+          "club": "Terengganu FC",
+          "position": "Forward",
+          "club_country": "Malaysia"
+        },
+        {
+          "name": "Brandley Kuwas",
+          "club": "FC Volendam",
+          "position": "Forward",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Jurgen Locadia",
+          "club": "Miami FC",
+          "position": "Forward",
+          "club_country": "USA"
+        },
+        {
+          "name": "Jearl Margaritha",
+          "club": "SK Beveren",
+          "position": "Forward",
+          "club_country": "Belgium"
+        }
+      ],
+      "player_count": 26,
+      "headline": "2026 World Cup: Curacao name debut 26-man squad"
+    },
+    {
+      "team": "DR Congo",
+      "players": [
+        {
+          "name": "Matthieu Epolo",
+          "club": "Standard Liege",
+          "position": "Goalkeeper",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Timothy Fayulu",
+          "club": "Noah",
+          "position": "Goalkeeper",
+          "club_country": "Armenia"
+        },
+        {
+          "name": "Lionel Mpasi",
+          "club": "Le Havre",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Dylan Batubinsika",
+          "club": "Larisa",
+          "position": "Defender",
+          "club_country": "Greece"
+        },
+        {
+          "name": "Gedoon Kalulu",
+          "club": "Aris Limassol",
+          "position": "Defender",
+          "club_country": "Cyprus"
+        },
+        {
+          "name": "Steve Kapuadi",
+          "club": "Widzew Lodz",
+          "position": "Defender",
+          "club_country": "Poland"
+        },
+        {
+          "name": "Joris Kayembe",
+          "club": "Racing Genk",
+          "position": "Defender",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Arthur Masuaku",
+          "club": "Racing Lens",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Chancel Mbemba",
+          "club": "Lille",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "club": "Burnley",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "club": "West Ham United",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Theo Bongonda",
+          "club": "Spartak Moscow",
+          "position": "Midfielder",
+          "club_country": "Russia"
+        },
+        {
+          "name": "Brian Cipenga",
+          "club": "Castellon",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Meshack Elia",
+          "club": "Alanyaspor",
+          "position": "Midfielder",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Gael Kakuta",
+          "club": "Larisa",
+          "position": "Midfielder",
+          "club_country": "Greece"
+        },
+        {
+          "name": "Edo Kayembe",
+          "club": "Watford",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Nathanael Mbuku",
+          "club": "Montpellier",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Samuel Moutoussamy",
+          "club": "Atromitos",
+          "position": "Midfielder",
+          "club_country": "Greece"
+        },
+        {
+          "name": "Ngal'ayel Mukau",
+          "club": "Lille",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Charles Pickel",
+          "club": "Espanyol",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Noah Sadiki",
+          "club": "Sunderland",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Aaron Tshibola",
+          "club": "Kilmarnock",
+          "position": "Midfielder",
+          "club_country": "Scotland"
+        },
+        {
+          "name": "Cedric Bakambu",
+          "club": "Real Betis",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Simon Banza",
+          "club": "Al Jazira",
+          "position": "Forward",
+          "club_country": "UAE"
+        },
+        {
+          "name": "Fiston Mayele",
+          "club": "Pyramids",
+          "position": "Forward",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Yoane Wissa",
+          "club": "Newcastle United",
+          "position": "Forward",
+          "club_country": "England"
+        }
+      ],
+      "player_count": 26,
+      "last_updated": "20 May 2026",
+      "headline": "World Cup 2026: DR Congo name West Ham&#x27;s Aaron Wan-Bissaka and Newcastle United&#x27;s Yoane Wissa in squad"
+    },
+    {
+      "team": "England",
+      "players": [
+        {
+          "name": "Dean Henderson",
+          "club": "Crystal Palace",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Jordan Pickford",
+          "club": "Everton",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "James Trafford",
+          "club": "Manchester City",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Dan Burn",
+          "club": "Newcastle United",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Marc Guehi",
+          "club": "Manchester City",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Reece James",
+          "club": "Chelsea",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Ezri Konsa",
+          "club": "Aston Villa",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Tino Livramento",
+          "club": "Newcastle",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Nico O'Reilly",
+          "club": "Manchester City",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Jarell Quansah",
+          "club": "Bayer Leverkusen",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Djed Spence",
+          "club": "Tottenham",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "John Stones",
+          "club": "Manchester City",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Elliot Anderson",
+          "club": "Nottingham Forest",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Jude Bellingham",
+          "club": "Real Madrid",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Eberechi Eze",
+          "club": "Arsenal",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Jordan Henderson",
+          "club": "Brentford",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Kobbie Mainoo",
+          "club": "Manchester United",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Declan Rice",
+          "club": "Arsenal",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Morgan Rogers",
+          "club": "Aston Villa",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Anthony Gordon",
+          "club": "Newcastle United",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Harry Kane",
+          "club": "Bayern Munich",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Noni Madueke",
+          "club": "Arsenal",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Marcus Rashford",
+          "club": "Barcelona on loan from Manchester United",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Bukayo Saka",
+          "club": "Arsenal",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Ivan Toney",
+          "club": "Al-Ahli",
+          "position": "Forward",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Ollie Watkins",
+          "club": "Aston Villa",
+          "position": "Forward",
+          "club_country": "England"
+        }
+      ],
+      "player_count": 26,
+      "last_updated": "22 May 2026",
+      "headline": "England World Cup squad: Phil Foden, Cole Palmer and Trent Alexander-Arnold left out"
+    },
+    {
+      "team": "France",
+      "players": [
+        {
+          "name": "Mike Maignan",
+          "club": "AC Milan",
+          "position": "Goalkeeper",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Robin Risser",
+          "club": "Lens",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Brice Samba",
+          "club": "Rennes",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Lucas Digne",
+          "club": "Aston Villa",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Malo Gusto",
+          "club": "Chelsea",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Lucas Hernandez",
+          "club": "Paris St-Germain",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Theo Hernandez",
+          "club": "Al Hilal",
+          "position": "Defender",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Ibrahima Konate",
+          "club": "Liverpool",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Maxence Lacroix",
+          "club": "Crystal Palace",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Jules Kounde",
+          "club": "Barcelona",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "William Saliba",
+          "club": "Arsenal",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Dayot Upamenaco",
+          "club": "Bayern Munich",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "N'Golo Kante",
+          "club": "Fenerbache",
+          "position": "Midfielder",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Manu Kone",
+          "club": "Roma",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Adrien Rabiot",
+          "club": "AC Milan",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "club": "Real Madrid",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Warren Zaire-Emery",
+          "club": "Paris St-Germain",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "club": "Monaco",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Bradley Barcola",
+          "club": "Paris St-Germain",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Rayan Cherki",
+          "club": "Man City",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Ousmane Dembele",
+          "club": "Paris St-Germain",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Desire Doue",
+          "club": "Paris St-Germain",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Michael Olise",
+          "club": "Bayern Munich",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "club": "Real Madrid",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Jean-Phillipe Mateta",
+          "club": "Crystal Palace",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Marcus Thuram",
+          "club": "Inter Milan",
+          "position": "Forward",
+          "club_country": "Italy"
+        }
+      ],
+      "player_count": 26,
+      "headline": "2026 World Cup: Mbappe and Dembele lead 26-man France squad"
+    },
+    {
+      "team": "Egypt",
+      "players": [
+        {
+          "name": "Mohamed El Shenawy",
+          "club": "Al Ahly",
+          "position": "Goalkeeper",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Mostafa Shobeir",
+          "club": "Al Ahly",
+          "position": "Goalkeeper",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "El Mahdi Soliman",
+          "club": "Zamalek",
+          "position": "Goalkeeper",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Mohamed Alaa",
+          "club": "El Gouna",
+          "position": "Goalkeeper",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Mohamed Hany",
+          "club": "Al Ahly",
+          "position": "Defender",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Tarek Alaa",
+          "club": "Zed",
+          "position": "Defender",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Hamdy Fathy",
+          "club": "Al Wakrah",
+          "position": "Defender",
+          "club_country": "Qatar"
+        },
+        {
+          "name": "Rami Rabia",
+          "club": "Al Ain",
+          "position": "Defender",
+          "club_country": "UAE"
+        },
+        {
+          "name": "Yasser Ibrahim",
+          "club": "Al Ahly",
+          "position": "Defender",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Hossam Abdelmaguid",
+          "club": "Zamalek",
+          "position": "Defender",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Mohamed Abdelmonemn",
+          "club": "Nice",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Ahmed Fatouh",
+          "club": "Zamalek",
+          "position": "Defender",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Karim Hafez",
+          "club": "Pyramids",
+          "position": "Defender",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Marwan Ateya",
+          "club": "Al Ahly",
+          "position": "Midfielder",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Mohanad Lasheen",
+          "club": "Pyramids",
+          "position": "Midfielder",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Nabil Emad",
+          "club": "Al Najma",
+          "position": "Midfielder",
+          "club_country": "Bahrain"
+        },
+        {
+          "name": "Mahmoud Saber",
+          "club": "Zed",
+          "position": "Midfielder",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Ahmed Zizo",
+          "club": "Al Ahly",
+          "position": "Midfielder",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Emam Ashour",
+          "club": "Al Ahly",
+          "position": "Midfielder",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Mostafa Ziko",
+          "club": "Pyramids",
+          "position": "Midfielder",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Mahmoud Trezeguet",
+          "club": "Al Ahly",
+          "position": "Midfielder",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Ibrahim Adel",
+          "club": "Nordsjaelland",
+          "position": "Midfielder",
+          "club_country": "Denmark"
+        },
+        {
+          "name": "Haissem Hassan",
+          "club": "Real Ovideo",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Omar Marmoush",
+          "club": "Manchester City",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Mohamed Salah",
+          "club": "Liverpool",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Aqtay Abdallah",
+          "club": "Enppi",
+          "position": "Forward",
+          "club_country": "Egypt"
+        },
+        {
+          "name": "Hamza Abdelkarim",
+          "club": "Barcelona",
+          "position": "Forward",
+          "club_country": "Spain"
+        }
+      ],
+      "player_count": 27,
+      "headline": "World Cup 2026: Mohamed Salah in Egypt squad"
+    },
+    {
+      "team": "Germany",
+      "players": [
+        {
+          "name": "Oliver Baumann",
+          "club": "Hoffenheim",
+          "position": "Goalkeeper",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Manuel Neuer",
+          "club": "Bayern Munich",
+          "position": "Goalkeeper",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Alexander Nubel",
+          "club": "Stuttgart",
+          "position": "Goalkeeper",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Waldemar Anton",
+          "club": "Borussia Dortmund",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Nathaniel Brown",
+          "club": "Eintracht Frankfurt",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "club": "Bayern Munich",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "David Raum",
+          "club": "RB Leipzig",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Antonio Rudiger",
+          "club": "Real Madrid",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "club": "Borussia Dortmund",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Jonathan Tah",
+          "club": "Bayern Munich",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Malick Thiaw",
+          "club": "Newcastle United",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Nadiem Amiri",
+          "club": "Mainz",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Leon Goretzka",
+          "club": "Bayern Munich",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Pascal Gross",
+          "club": "Brighton and Hove Albion",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Jamie Leweling",
+          "club": "Stuttgart",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Jamal Musiala",
+          "club": "Bayern Munich",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Felix Nmecha",
+          "club": "Borussia Dortmund",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Aleksandar Pavlovic",
+          "club": "Bayern Munich",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Angelo Stiller",
+          "club": "Stuttgart",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Florian Wirtz",
+          "club": "Liverpool",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Maximilian Beier",
+          "club": "Borussia Dortmund",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Kai Havertz",
+          "club": "Arsenal",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Lennart Karl",
+          "club": "Bayern Munich",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Leroy Sane",
+          "club": "Galatasaray",
+          "position": "Forward",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Deniz Undav",
+          "club": "Stuttgart",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Nick Woltemade",
+          "club": "Newcastle United",
+          "position": "Forward",
+          "club_country": "England"
+        }
+      ],
+      "player_count": 26,
+      "headline": "2026 World Cup: Germany recall Manuel Neuer, 40, as first-choice goalkeeper"
+    },
+    {
+      "team": "Haiti",
+      "players": [
+        {
+          "name": "Johnny Placide",
+          "club": "Bastia",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Alexandre Pierre",
+          "club": "Sochaux",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Josue Duverger",
+          "club": "FC Cosmos Koblenz",
+          "position": "Goalkeeper",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Carlens Arcus",
+          "club": "Angers",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Wilguens Pauguain",
+          "club": "Zulte Waregem",
+          "position": "Defender",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Duke Lacroix",
+          "club": "Colorado Springs",
+          "position": "Defender",
+          "club_country": "USA"
+        },
+        {
+          "name": "Martin Expérience",
+          "club": "Nancy",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Jean-Kevin Duverne",
+          "club": "KAA Gent",
+          "position": "Defender",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Ricardo Ade",
+          "club": "LDU Quito",
+          "position": "Defender",
+          "club_country": "Ecuador"
+        },
+        {
+          "name": "Hannes Delcroix",
+          "club": "Lugano",
+          "position": "Defender",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Keeto Thermoncy",
+          "club": "Young Boys Berne",
+          "position": "Defender",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Leverton Pierre",
+          "club": "Vizela",
+          "position": "Midfielder",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Carl-Fred Sainthe",
+          "club": "El Paso Locomotive",
+          "position": "Midfielder",
+          "club_country": "USA"
+        },
+        {
+          "name": "Jean-Jacques Danley",
+          "club": "Philadelphia Union",
+          "position": "Midfielder",
+          "club_country": "USA"
+        },
+        {
+          "name": "Jean-Ricner Bellegarde",
+          "club": "Wolves",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Pierre Woodenski",
+          "club": "Violette",
+          "position": "Midfielder",
+          "club_country": "Haiti"
+        },
+        {
+          "name": "Dominique Simon",
+          "club": "Tatran Presov",
+          "position": "Midfielder",
+          "club_country": "Slovakia"
+        },
+        {
+          "name": "Louicius Deedson",
+          "club": "Dallas",
+          "position": "Forward",
+          "club_country": "USA"
+        },
+        {
+          "name": "Ruben Providence",
+          "club": "Almere City",
+          "position": "Forward",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Josue Casimir",
+          "club": "Auxerre",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Derrick Etienne",
+          "club": "Toronto",
+          "position": "Forward",
+          "club_country": "Canada"
+        },
+        {
+          "name": "Wilson Isidor",
+          "club": "Sunderland",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Duckens Nazon",
+          "club": "Esteghlal",
+          "position": "Forward",
+          "club_country": "Iran"
+        },
+        {
+          "name": "Frantzdy Pierrot",
+          "club": "Caykur Rizespor",
+          "position": "Forward",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Yassin Fortune",
+          "club": "Vizela",
+          "position": "Forward",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Lenny Joseph",
+          "club": "Ferencvaros",
+          "position": "Forward",
+          "club_country": "Hungary"
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: Haiti squad includes Wilson Isidor and Jean-Ricner Bellegarde"
+    },
+    {
+      "team": "Ivory Coast",
+      "players": [
+        {
+          "name": "Yahia Fofana",
+          "club": "Rizespor",
+          "position": "Goalkeeper",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Mohamed Kone",
+          "club": "Charleroi",
+          "position": "Goalkeeper",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Alban Lafont",
+          "club": "Panathinaikos",
+          "position": "Goalkeeper",
+          "club_country": "Greece"
+        },
+        {
+          "name": "Emmanuel Agbadou",
+          "club": "Wolverhampton Wanderers",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Clement Akpa",
+          "club": "AJ Auxerre",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Ousmane Diomande",
+          "club": "Sporting",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Guela Doue",
+          "club": "Racing Strasbourg",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Ghislain Konan",
+          "club": "Gil Vicente",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Odilon Kossonou",
+          "club": "Atalanta",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Evan Ndicka",
+          "club": "AS Roma",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Wilfried Singo",
+          "club": "Galatasaray",
+          "position": "Defender",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Seko Fofana",
+          "club": "Stade Rennais",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Parfait Guiagon",
+          "club": "Charleroi",
+          "position": "Midfielder",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Franck Kessie",
+          "club": "Al Ahli",
+          "position": "Midfielder",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Christ Oulai",
+          "club": "Trabzonspor",
+          "position": "Midfielder",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Ibrahim Sangare",
+          "club": "Nottingham Forest",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Jean-Michael Seri",
+          "club": "NK Maribor",
+          "position": "Midfielder",
+          "club_country": "Slovenia"
+        },
+        {
+          "name": "Simon Adingra",
+          "club": "AS Monaco",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Ange-Yoan Bonny",
+          "club": "Inter Milan",
+          "position": "Forward",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Amad Diallo",
+          "club": "Manchester United",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Oumar Diakite",
+          "club": "Cercle Brugge",
+          "position": "Forward",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Yan Diomande",
+          "club": "RB Leipzig",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Evann Guessand",
+          "club": "Aston Villa",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Nicolas Pepe",
+          "club": "Villarreal",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Bazoumana Toure",
+          "club": "Hoffenheim",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Elye Wahi",
+          "club": "Nice",
+          "position": "Forward",
+          "club_country": "France"
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: Ivory Coast name squad without forward Wilfried Zaha"
+    },
+    {
+      "team": "Japan",
+      "players": [
+        {
+          "name": "Tomoki Hayakawa",
+          "club": "Kashima Antlers",
+          "position": "Goalkeeper",
+          "club_country": "Japan"
+        },
+        {
+          "name": "Keisuke Osako",
+          "club": "Sanfrecce Hiroshima",
+          "position": "Goalkeeper",
+          "club_country": "Japan"
+        },
+        {
+          "name": "Aya Suzuka",
+          "club": "Parma Calcio",
+          "position": "Goalkeeper",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Yuto Nagatomo",
+          "club": "FC Tokyo",
+          "position": "Defender",
+          "club_country": "Japan"
+        },
+        {
+          "name": "Shogo Taniguchi",
+          "club": "Sint-Truiden",
+          "position": "Defender",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Ko Itakura",
+          "club": "Ajax",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Tsuyoshi Watanabe",
+          "club": "Feyenoord",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Takehiro Tomiyasu",
+          "club": "Ajax",
+          "position": "Defender",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Hiroki Ito",
+          "club": "Bayern Munich",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Ayumu Seko",
+          "club": "Le Havre AC",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Yukinari Sugawara",
+          "club": "Werder Bremen",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Junosuke Suzuki",
+          "club": "FC Copenhagen",
+          "position": "Defender",
+          "club_country": "Denmark"
+        },
+        {
+          "name": "Wataru Endo",
+          "club": "Liverpool",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Junya Ito",
+          "club": "Genk",
+          "position": "Midfielder",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Daichi Kamada",
+          "club": "Crystal Palace",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Koki Ogawa",
+          "club": "NEC Nijmegen",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Daizen Maeda",
+          "club": "Celtic",
+          "position": "Midfielder",
+          "club_country": "Scotland"
+        },
+        {
+          "name": "Ritsu Doan",
+          "club": "Eintracht Frankfurt",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Ao Tanaka",
+          "club": "Leeds United",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Kaishu Sano",
+          "club": "Mainz 05",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Takefusa Kubo",
+          "club": "Real Sociedad",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Ayase Ueda",
+          "club": "Feyenoord",
+          "position": "Forward",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Keito Nakamura",
+          "club": "Stade de Reims",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Ito Suzuki",
+          "club": "SC Freiburg",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Kento Shiode",
+          "club": "Wolfsburg",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Keisuke Goto",
+          "club": "Sint-Truiden",
+          "position": "Forward",
+          "club_country": "Belgium"
+        }
+      ],
+      "player_count": 26,
+      "headline": "Kaoru Mitoma: Injured Japan winger left out of 26-man World Cup squad"
+    },
+    {
+      "team": "New Zealand",
+      "players": [
+        {
+          "name": "Max Crocombe",
+          "club": "Millwall",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Alex Paulsen",
+          "club": "Lechia Gdansk, on loan from Bournemouth",
+          "position": "Goalkeeper",
+          "club_country": "Poland"
+        },
+        {
+          "name": "Michael Woud",
+          "club": "Auckland FC",
+          "position": "Goalkeeper",
+          "club_country": "New Zealand"
+        },
+        {
+          "name": "Tim Payne",
+          "club": "Wellington Phoenix",
+          "position": "Defender",
+          "club_country": "New Zealand"
+        },
+        {
+          "name": "Francis de Vries",
+          "club": "Auckland FC",
+          "position": "Defender",
+          "club_country": "New Zealand"
+        },
+        {
+          "name": "Tyler Bindon",
+          "club": "Nottingham Forest",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Michael Boxall",
+          "club": "Minnesota United",
+          "position": "Defender",
+          "club_country": "USA"
+        },
+        {
+          "name": "Liberato Cacace",
+          "club": "Wrexham",
+          "position": "Defender",
+          "club_country": "Wales"
+        },
+        {
+          "name": "Nando Pijnaker",
+          "club": "Auckland FC",
+          "position": "Defender",
+          "club_country": "New Zealand"
+        },
+        {
+          "name": "Finn Surman",
+          "club": "Portland Timbers",
+          "position": "Defender",
+          "club_country": "USA"
+        },
+        {
+          "name": "Callan Elliot",
+          "club": "Auckland FC",
+          "position": "Defender",
+          "club_country": "New Zealand"
+        },
+        {
+          "name": "Tommy Smith",
+          "club": "Braintree Town",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Joe Bell",
+          "club": "Viking FK",
+          "position": "Midfielder",
+          "club_country": "Norway"
+        },
+        {
+          "name": "Matthew Garbett",
+          "club": "Peterborough United",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Marko Stamenic",
+          "club": "Swansea City",
+          "position": "Midfielder",
+          "club_country": "Wales"
+        },
+        {
+          "name": "Sarpreet Singh",
+          "club": "Wellington Phoenix",
+          "position": "Midfielder",
+          "club_country": "New Zealand"
+        },
+        {
+          "name": "Alex Rufer",
+          "club": "Wellington Phoenix",
+          "position": "Midfielder",
+          "club_country": "New Zealand"
+        },
+        {
+          "name": "Ben Old",
+          "club": "Saint-Étienne",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Callum McCowatt",
+          "club": "Silkeborg IF",
+          "position": "Midfielder",
+          "club_country": "Denmark"
+        },
+        {
+          "name": "Lachlan Bayliss",
+          "club": "Newcastle Jets",
+          "position": "Midfielder",
+          "club_country": "Australia"
+        },
+        {
+          "name": "Ryan Thomas",
+          "club": "PEC Zwolle",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Kosta Barbarouses",
+          "club": "Western Sydney Wanderers",
+          "position": "Forward",
+          "club_country": "Australia"
+        },
+        {
+          "name": "Eli Just",
+          "club": "Motherwell",
+          "position": "Forward",
+          "club_country": "Scotland"
+        },
+        {
+          "name": "Jesse Randall",
+          "club": "Auckland FC",
+          "position": "Forward",
+          "club_country": "New Zealand"
+        },
+        {
+          "name": "Ben Waine",
+          "club": "Port Vale",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Chris Wood",
+          "club": "Nottingham Forest",
+          "position": "Forward",
+          "club_country": "England"
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: New Zealand name Tommy Smith &amp; Chris Wood in squad"
+    },
+    {
+      "team": "Norway",
+      "players": [
+        {
+          "name": "Orjan Haskjold Nyland",
+          "club": "Sevilla",
+          "position": "Goalkeeper",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Egil Selvik",
+          "club": "Watford",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Sander Tangvik",
+          "club": "Hamburger SV",
+          "position": "Goalkeeper",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Julian Ryerson",
+          "club": "Borussia Dortmund",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Marcus Holmgren Pedersen",
+          "club": "Torino",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "David Moller Wolfe",
+          "club": "Wolverhampton",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Fredrik Bjorkan",
+          "club": "Bodo/Glimt",
+          "position": "Defender",
+          "club_country": "Norway"
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "club": "Brentford",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Torbjorn Heggem",
+          "club": "Bologna",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Leo Skiri Ostigard",
+          "club": "Genoa",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Sondre Langas",
+          "club": "Derby County",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Henrik Falchener",
+          "club": "Viking",
+          "position": "Defender",
+          "club_country": "Norway"
+        },
+        {
+          "name": "Martin Odegaard",
+          "club": "Arsenal",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Sander Berge",
+          "club": "Fulham",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Fredrik Aursnes",
+          "club": "Benfica",
+          "position": "Midfielder",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Patrick Berg",
+          "club": "Bodo/Glimt",
+          "position": "Midfielder",
+          "club_country": "Norway"
+        },
+        {
+          "name": "Kristian Thorstvedt",
+          "club": "Sassuolo",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Morten Thorsby",
+          "club": "Cremonese",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Thelo Aasgaard",
+          "club": "Rangers",
+          "position": "Midfielder",
+          "club_country": "Scotland"
+        },
+        {
+          "name": "Erling Haaland",
+          "club": "Manchester City",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Alexander Sorloth",
+          "club": "Atletico Madrid",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Jorgen Strand Larsen",
+          "club": "Crystal Palace",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Antonio Nusa",
+          "club": "RB Leipzig",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Oscar Bobb",
+          "club": "Fulham",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Andreas Schjelderup",
+          "club": "Benfica",
+          "position": "Forward",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Jens Petter Hauge",
+          "club": "Bodo/Glimt",
+          "position": "Forward",
+          "club_country": "Norway"
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: Martin Odegaard captains Norway World Cup squad"
+    },
+    {
+      "team": "Portugal",
+      "players": [
+        {
+          "name": "Diogo Costa",
+          "club": "Porto",
+          "position": "Goalkeeper",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Jose Sa",
+          "club": "Wolves",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Rui Silva",
+          "club": "Sporting",
+          "position": "Goalkeeper",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Ricardo Velho",
+          "club": "Genclerbirligi",
+          "position": "Goalkeeper",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Diogo Dalot",
+          "club": "Manchester United",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Matheus Nunes",
+          "club": "Manchester City",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Ruben Dias",
+          "club": "Manchester City",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Nelson Semedo",
+          "club": "Fenerbahce",
+          "position": "Defender",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Joao Cancelo",
+          "club": "Barcelona",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Nuno Mendes",
+          "club": "Paris St-Germain",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Goncalo Inacio",
+          "club": "Sporting",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Renato Veiga",
+          "club": "Villarreal",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Tomas Araujo",
+          "club": "Benfica",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Ruben Neves",
+          "club": "Al-Hilal",
+          "position": "Midfielder",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Samu Costa",
+          "club": "Mallorca",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Joao Neves",
+          "club": "Paris St-Germain",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Vitinha",
+          "club": "Paris St-Germain",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "club": "Manchester United",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Bernardo Silva",
+          "club": "Manchester City",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "club": "Al-Nassr",
+          "position": "Forward",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Joao Felix",
+          "club": "Al-Nassr",
+          "position": "Forward",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Francisco Trincao",
+          "club": "Sporting",
+          "position": "Forward",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Francisco Conceicao",
+          "club": "Juventus",
+          "position": "Forward",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Pedro Neto",
+          "club": "Chelsea",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Rafael Leao",
+          "club": "AC Milan",
+          "position": "Forward",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Goncalo Guedes",
+          "club": "Real Sociedad",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Goncalo Ramos",
+          "club": "Paris St-Germain",
+          "position": "Forward",
+          "club_country": "France"
+        }
+      ],
+      "player_count": 27,
+      "headline": "World Cup 2026: Cristiano Ronaldo in Portugal squad and set for sixth World Cup"
+    },
+    {
+      "team": "Scotland",
+      "players": [
+        {
+          "name": "Craig Gordon",
+          "club": null,
+          "position": "Goalkeeper",
+          "club_country": null
+        },
+        {
+          "name": "Angus Gunn",
+          "club": null,
+          "position": "Goalkeeper",
+          "club_country": null
+        },
+        {
+          "name": "Liam Kelly",
+          "club": null,
+          "position": "Goalkeeper",
+          "club_country": null
+        },
+        {
+          "name": "Grant Hanley",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Jack Hendry",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Aaron Hickey",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Dom Hyam",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Scott McKenna",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Nathan Patterson",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Anthony Ralston",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Andy Robertson",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "John Souttar",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Kieran Tierney",
+          "club": null,
+          "position": "Defender",
+          "club_country": null
+        },
+        {
+          "name": "Ryan Christie",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "Findlay Curtis",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "Lewis Ferguson",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "Ben Gannon-Doak",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "Billy Gilmour",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "John McGinn",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "Kenny McLean",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "Scott McTominay",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "Che Adams",
+          "club": null,
+          "position": "Forward",
+          "club_country": null
+        },
+        {
+          "name": "Lyndon Dykes",
+          "club": null,
+          "position": "Forward",
+          "club_country": null
+        },
+        {
+          "name": "George Hirst",
+          "club": null,
+          "position": "Forward",
+          "club_country": null
+        },
+        {
+          "name": "Lawrence Shankland",
+          "club": null,
+          "position": "Forward",
+          "club_country": null
+        },
+        {
+          "name": "Ross Stewart",
+          "club": null,
+          "position": "Forward",
+          "club_country": null
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: Scotland select Ross Stewart and Findlay Curtis in 26-man squad"
+    },
+    {
+      "team": "Senegal",
+      "players": [
+        {
+          "name": "Edouard Mendy",
+          "club": "Al-Ahli",
+          "position": "Goalkeeper",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Yehvann Diouf",
+          "club": "Nice",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Mory Diaw",
+          "club": "Le Havre",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Krepin Diatta",
+          "club": "Monaco",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Antoine Mendy",
+          "club": "Nice",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Abdoulaye Seck",
+          "club": "Maccabi Haifa",
+          "position": "Defender",
+          "club_country": "Israel"
+        },
+        {
+          "name": "Kalidou Koulibaly",
+          "club": "Al-Hilal",
+          "position": "Defender",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Ilay Camara",
+          "club": "Anderlecht",
+          "position": "Defender",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Moussa Niakhate",
+          "club": "Lyon",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Mamadou Sarr",
+          "club": "Chelsea",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "El-Hadji Malick Diouf",
+          "club": "West Ham United",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Moustapha Mbow",
+          "club": "Paris FC",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Ismail Jakobs",
+          "club": "Galatasaray",
+          "position": "Defender",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Idrissa Gueye",
+          "club": "Everton",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Habib Diarra",
+          "club": "Sunderland",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Pape Matar Sarr",
+          "club": "Tottenham",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Pape Gueye",
+          "club": "Villarreal",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Lamine Camara",
+          "club": "Monaco",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Pathe Ciss",
+          "club": "Rayo Vallecano",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Bara Ndiaye",
+          "club": "Bayern Munich",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Sadio Mane",
+          "club": "Al-Nassr",
+          "position": "Forward",
+          "club_country": "Saudi Arabia"
+        },
+        {
+          "name": "Bamba Dieng",
+          "club": "Lorient",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Iliman Ndiaye",
+          "club": "Everton",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Nicolas Jackson",
+          "club": "Bayern Munich",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Assane Diao",
+          "club": "Como",
+          "position": "Forward",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Ibrahim Mbaye",
+          "club": "Paris St-Germain",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Cherif Ndiaye",
+          "club": "Samsunspor",
+          "position": "Forward",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Ismaila Sarr",
+          "club": "Crystal Palace",
+          "position": "Forward",
+          "club_country": "England"
+        }
+      ],
+      "player_count": 28,
+      "headline": "World Cup 2026: Sadio Mane named in Senegal&#x27;s squad after missing 2022 tournament"
+    },
+    {
+      "team": "South Korea",
+      "players": [
+        {
+          "name": "Jo Hyeon-woo",
+          "club": "Ulsan",
+          "position": "Goalkeeper",
+          "club_country": "South Korea"
+        },
+        {
+          "name": "Kim Seung-gyu",
+          "club": "FC Tokyo",
+          "position": "Goalkeeper",
+          "club_country": "Japan"
+        },
+        {
+          "name": "Song Bum-keun",
+          "club": "Jeonbuk",
+          "position": "Goalkeeper",
+          "club_country": "South Korea"
+        },
+        {
+          "name": "Kim Moon-hwan",
+          "club": "Daejeon",
+          "position": "Defender",
+          "club_country": "South Korea"
+        },
+        {
+          "name": "Kim Min-jae",
+          "club": "Bayern Munich",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Kim Tae-hyon",
+          "club": "Kashima Antlers",
+          "position": "Defender",
+          "club_country": "Japan"
+        },
+        {
+          "name": "Park Jin-seob",
+          "club": "Zhejiang",
+          "position": "Defender",
+          "club_country": "China"
+        },
+        {
+          "name": "Seol Young-woo",
+          "club": "Red Star Belgrade",
+          "position": "Defender",
+          "club_country": "Serbia"
+        },
+        {
+          "name": "Jens Castrop",
+          "club": "Borussia Monchengladbach",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Lee Ki-hyuk",
+          "club": "Gangwon",
+          "position": "Defender",
+          "club_country": "South Korea"
+        },
+        {
+          "name": "Lee Tae-seok",
+          "club": "Austria Wien",
+          "position": "Defender",
+          "club_country": "Austria"
+        },
+        {
+          "name": "Lee Han-beom",
+          "club": "Midtjylland",
+          "position": "Defender",
+          "club_country": "Denmark"
+        },
+        {
+          "name": "Cho Yu-min",
+          "club": "Sharjah",
+          "position": "Defender",
+          "club_country": "UAE"
+        },
+        {
+          "name": "Kim Jin-gyu",
+          "club": "Jeonbuk",
+          "position": "Midfielder",
+          "club_country": "South Korea"
+        },
+        {
+          "name": "Bae Jun-ho",
+          "club": "Stoke City",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Paik Seung-ho",
+          "club": "Birmingham",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Yang Hyun-jun",
+          "club": "Celtic",
+          "position": "Midfielder",
+          "club_country": "Scotland"
+        },
+        {
+          "name": "Eom Ji-sung",
+          "club": "Swansea",
+          "position": "Midfielder",
+          "club_country": "Wales"
+        },
+        {
+          "name": "Lee Kang-in",
+          "club": "Paris St-Germain",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Lee Dong-gyeong",
+          "club": "Ulsan",
+          "position": "Midfielder",
+          "club_country": "South Korea"
+        },
+        {
+          "name": "Lee Jae-sung",
+          "club": "Mainz",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Hwang In-beom",
+          "club": "Feyenoord",
+          "position": "Midfielder",
+          "club_country": "Netherlands"
+        },
+        {
+          "name": "Hwang Hee-chan",
+          "club": "Wolves",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Son Heung-min",
+          "club": "LAFC",
+          "position": "Forward",
+          "club_country": "USA"
+        },
+        {
+          "name": "Oh Hyeon-gyu",
+          "club": "Besitkas",
+          "position": "Forward",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Cho Gue-sung",
+          "club": "Midtjylland",
+          "position": "Forward",
+          "club_country": "Denmark"
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: South Korea&#x27;s Son Heung-min to play at fourth tournament"
+    },
+    {
+      "team": "Spain",
+      "players": [
+        {
+          "name": "Unai Simon",
+          "club": "Athletic Bilbao",
+          "position": "Goalkeeper",
+          "club_country": "Spain"
+        },
+        {
+          "name": "David Raya",
+          "club": "Arsenal",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Joan Garcia",
+          "club": "Barcelona",
+          "position": "Goalkeeper",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Marcos Llorente",
+          "club": "Atletico Madrid",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Marc Pubill",
+          "club": "Atletico Madrid",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Pedro Porro",
+          "club": "Tottenham",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Aymeric Laporte",
+          "club": "Athletic Bilbao",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Eric Garcia",
+          "club": "Barcelona",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Pau Cubarsi",
+          "club": "Barcelona",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Marc Cucurella",
+          "club": "Chelsea",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "club": "Bayer Leverkusen",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Rodri",
+          "club": "Manchester City",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Martin Zubimendi",
+          "club": "Arsenal",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Mikel Merino",
+          "club": "Arsenal",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Pedri",
+          "club": "Barcelona",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Gavi",
+          "club": "Barcelona",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Fabian Ruiz",
+          "club": "Paris St-Germain",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Alex Baena",
+          "club": "Atletico Madrid",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Yeremy Pino",
+          "club": "Crystal Palace",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Victor Munoz",
+          "club": "Osasuna",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "club": "Real Sociedad",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Ferran Torres",
+          "club": "Barcelona",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Lamine Yamal",
+          "club": "Barcelona",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Dani Olmo",
+          "club": "Barcelona",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Nico Williams",
+          "club": "Athletic Bilbao",
+          "position": "Forward",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Borja Iglesias",
+          "club": "Celta Vigo",
+          "position": "Forward",
+          "club_country": "Spain"
+        }
+      ],
+      "player_count": 26,
+      "headline": "World Cup 2026: Spain squad includes Lamine Yamal but no Real Madrid players"
+    },
+    {
+      "team": "Sweden",
+      "players": [
+        {
+          "name": "Viktor Johansson",
+          "club": "Stoke City",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Kristoffer Nordfeldt",
+          "club": "AIK",
+          "position": "Goalkeeper",
+          "club_country": "Sweden"
+        },
+        {
+          "name": "Jacob Widell Zetterstrom",
+          "club": "Derby County",
+          "position": "Goalkeeper",
+          "club_country": "England"
+        },
+        {
+          "name": "Hjalmar Ekdal",
+          "club": "Burnley",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "club": "Leeds United",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Isak Hien",
+          "club": "Atalanta",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Emil Holm",
+          "club": "Juventus",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Gustaf Lagerbielke",
+          "club": "Braga",
+          "position": "Defender",
+          "club_country": "Portugal"
+        },
+        {
+          "name": "Victor Lindelof",
+          "club": "Aston Villa",
+          "position": "Defender",
+          "club_country": "England"
+        },
+        {
+          "name": "Erik Smith",
+          "club": "St. Pauli",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Carl Starfelt",
+          "club": "Celta Vigo",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Elliot Stroud",
+          "club": "Mjallby",
+          "position": "Defender",
+          "club_country": "Sweden"
+        },
+        {
+          "name": "Daniel Svensson",
+          "club": "Borussia Dortmund",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Taha Ali",
+          "club": "Malmo",
+          "position": "Midfielder",
+          "club_country": "Sweden"
+        },
+        {
+          "name": "Yasin Ayari",
+          "club": "Brighton",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Lucas Bergvall",
+          "club": "Tottenham",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Jesper Karlstrom",
+          "club": "Udinese",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Ken Sema",
+          "club": "Pafos",
+          "position": "Midfielder",
+          "club_country": "Cyprus"
+        },
+        {
+          "name": "Mattias Svanberg",
+          "club": "Wolfsburg",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Besfort Zeneli",
+          "club": "Union St-Gilloise",
+          "position": "Midfielder",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Alexander Bernhardsson",
+          "club": "Holstein Kiel",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Anthony Elanga",
+          "club": "Newcastle United",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Viktor Gyokeres",
+          "club": "Arsenal",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Alexander Isak",
+          "club": "Liverpool",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Gustaf Nilsson",
+          "club": "Club Brugge",
+          "position": "Forward",
+          "club_country": "Belgium"
+        },
+        {
+          "name": "Benjamin Nygren",
+          "club": "Celtic",
+          "position": "Forward",
+          "club_country": "Scotland"
+        }
+      ],
+      "player_count": 26,
+      "headline": "Sweden World Cup squad: Alexander Isak and Viktor Gyokeres among those selected"
+    },
+    {
+      "team": "Switzerland",
+      "players": [
+        {
+          "name": "Marvin Keller",
+          "club": "Young Boys",
+          "position": "Goalkeeper",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Gregor Kobel",
+          "club": "Borussia Dortmund",
+          "position": "Goalkeeper",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Yvon Mvogo",
+          "club": "Lorient",
+          "position": "Goalkeeper",
+          "club_country": "France"
+        },
+        {
+          "name": "Manuel Akanji",
+          "club": "Inter Milan",
+          "position": "Defender",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Aurele Amenda",
+          "club": "Eintracht Frankfurt",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Eray Comert",
+          "club": "Valencia",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Nico Elvedi",
+          "club": "Borussia Moenchengladbach",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Luca Jaquez",
+          "club": "VfB Stuttgart",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Miro Muheim",
+          "club": "Hamburg",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Ricardo Rodriguez",
+          "club": "Real Betis",
+          "position": "Defender",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Silvan Widmer",
+          "club": "Mainz",
+          "position": "Defender",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Michel Aebischer",
+          "club": "Pisa",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Christian Fassnacht",
+          "club": "Young Boys",
+          "position": "Midfielder",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Remo Freuler",
+          "club": "Bologna",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Ardon Jashari",
+          "club": "AC Milan",
+          "position": "Midfielder",
+          "club_country": "Italy"
+        },
+        {
+          "name": "Johan Manzambi",
+          "club": "Freiburg",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Fabian Rieder",
+          "club": "Augsburg",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Djibril Sow",
+          "club": null,
+          "position": "Midfielder",
+          "club_country": null
+        },
+        {
+          "name": "Ruben Vargas",
+          "club": "both Sevilla",
+          "position": "Midfielder",
+          "club_country": "Spain"
+        },
+        {
+          "name": "Granit Xhaka",
+          "club": "Sunderland",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Denis Zakaria",
+          "club": "Monaco",
+          "position": "Midfielder",
+          "club_country": "France"
+        },
+        {
+          "name": "Zeki Amdouni",
+          "club": "Burnley",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Breel Embolo",
+          "club": "Stade Rennais",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Cedric Itten",
+          "club": "Fortuna Dusseldorf",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Dan Ndoye",
+          "club": "Nottingham Forest",
+          "position": "Forward",
+          "club_country": "England"
+        },
+        {
+          "name": "Noah Okafor",
+          "club": "Leeds United",
+          "position": "Forward",
+          "club_country": "England"
+        }
+      ],
+      "player_count": 26,
+      "headline": "Granit Xhaka makes Switzerland squad for fourth World Cup"
+    },
+    {
+      "team": "Tunisia",
+      "players": [
+        {
+          "name": "Sabri Ben Hessen",
+          "club": "Etoile Sahel",
+          "position": "Goalkeeper",
+          "club_country": "Tunisia"
+        },
+        {
+          "name": "Abdelmouhib Chamakh",
+          "club": "Club Africain",
+          "position": "Goalkeeper",
+          "club_country": "Tunisia"
+        },
+        {
+          "name": "Aymen Dahman",
+          "club": "CS Sfaxien",
+          "position": "Goalkeeper",
+          "club_country": "Tunisia"
+        },
+        {
+          "name": "Ali Abdi",
+          "club": "Nice",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Adem Arous",
+          "club": "Kasimpasa",
+          "position": "Defender",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Mohamed Amine Ben Hamida",
+          "club": "Esperance",
+          "position": "Defender",
+          "club_country": "Tunisia"
+        },
+        {
+          "name": "Dylan Bronn",
+          "club": "Servette Geneva",
+          "position": "Defender",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Raed Chikhaoui",
+          "club": "US Monastir",
+          "position": "Defender",
+          "club_country": "Tunisia"
+        },
+        {
+          "name": "Moutaz Neffati",
+          "club": "Norrkoping",
+          "position": "Defender",
+          "club_country": "Sweden"
+        },
+        {
+          "name": "Omar Rekik",
+          "club": "NK Maribor",
+          "position": "Defender",
+          "club_country": "Slovenia"
+        },
+        {
+          "name": "Montassar Talbi",
+          "club": "Lorient",
+          "position": "Defender",
+          "club_country": "France"
+        },
+        {
+          "name": "Yan Valery",
+          "club": "Young Boys Berne",
+          "position": "Defender",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Mortadha Ben Ouanes",
+          "club": "Kasimpasa",
+          "position": "Midfielder",
+          "club_country": "Turkey"
+        },
+        {
+          "name": "Anis Ben Slimane",
+          "club": "Norwich City",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Ismael Gharbi",
+          "club": "FC Augsburg",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Rani Khedira",
+          "club": "Union Berlin",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Mohamed Hadj Mahmoud",
+          "club": "Lugano",
+          "position": "Midfielder",
+          "club_country": "Switzerland"
+        },
+        {
+          "name": "Hannibal Mejbri",
+          "club": "Burnley",
+          "position": "Midfielder",
+          "club_country": "England"
+        },
+        {
+          "name": "Ellyes Skhiri",
+          "club": "Eintracht Frankfurt",
+          "position": "Midfielder",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Elias Achouri",
+          "club": "FC Copenhagen",
+          "position": "Forward",
+          "club_country": "Denmark"
+        },
+        {
+          "name": "Khalil Ayari",
+          "club": "Paris St Germain",
+          "position": "Forward",
+          "club_country": "France"
+        },
+        {
+          "name": "Firas Chaouat",
+          "club": "Club Africain",
+          "position": "Forward",
+          "club_country": "Tunisia"
+        },
+        {
+          "name": "Rayan Elloumi",
+          "club": "Vancouver Whitecaps",
+          "position": "Forward",
+          "club_country": "Canada"
+        },
+        {
+          "name": "Hazem Mastouri",
+          "club": "Dynamo Makhachkala",
+          "position": "Forward",
+          "club_country": "Russia"
+        },
+        {
+          "name": "Elias Saad",
+          "club": "Hannover 96",
+          "position": "Forward",
+          "club_country": "Germany"
+        },
+        {
+          "name": "Sebastian Tounekti",
+          "club": "Celtic",
+          "position": "Forward",
+          "club_country": "Scotland"
+        }
+      ],
+      "player_count": 26,
+      "headline": "Tunisia boss Sabri Lamouchi leaves Ferjani Sassi out of World Cup squad"
+    }
+  ]
+}
