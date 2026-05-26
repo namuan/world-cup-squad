@@ -99,9 +99,25 @@ function getCountryCenter(features: GeoJSON.Feature[]): Record<string, L.LatLng>
   for (const f of features) {
     const name = f.properties?.name
     if (!name) continue
+    const geom = f.geometry
+    if (!geom) continue
     try {
-      const layer = L.geoJSON(f)
-      centers[name] = layer.getBounds().getCenter()
+      let coords: number[][]
+      if (geom.type === 'Polygon') {
+        coords = geom.coordinates[0] as number[][]
+      } else if (geom.type === 'MultiPolygon') {
+        const polys = geom.coordinates as number[][][][]
+        coords = polys.reduce((a, b) => (b[0].length > a.length ? b[0] : a), polys[0][0])
+      } else {
+        continue
+      }
+      let latSum = 0
+      let lngSum = 0
+      for (const c of coords) {
+        latSum += c[1]
+        lngSum += c[0]
+      }
+      centers[name] = L.latLng(latSum / coords.length, lngSum / coords.length)
     } catch {
       //
     }
