@@ -1,5 +1,6 @@
 {
   "name": "world-cup-squad",
+  "description": "Interactive map of 2026 World Cup squads and their club connections.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
   },
   "dependencies": {
     "@types/leaflet": "1.9.21",

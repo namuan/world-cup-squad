@@ -1,0 +1,1218 @@
+{
+  "Dallas": {
+    "lat": 32.8867235,
+    "lng": -96.8391412
+  },
+  "Montana": {
+    "lat": 43.4125,
+    "lng": 23.225
+  },
+  "Chaves": {
+    "lat": 41.7406,
+    "lng": -7.4697
+  },
+  "Wolves": {
+    "lat": 52.6076564,
+    "lng": -2.1494975
+  },
+  "Fulham": {
+    "lat": 51.5099507,
+    "lng": -0.2329871
+  },
+  "Ulsan": {
+    "lat": 35.535263,
+    "lng": 129.2594949
+  },
+  "Brighton": {
+    "lat": 50.8618,
+    "lng": -0.0833
+  },
+  "Rangers": {
+    "lat": 55.8532,
+    "lng": -4.3093
+  },
+  "Nancy": {
+    "lat": 48.695,
+    "lng": 6.210
+  },
+  "Porto": {
+    "lat": 41.1618,
+    "lng": -8.5839
+  },
+  "Sharjah": {
+    "lat": 25.2796522,
+    "lng": 55.4746606
+  },
+  "Lyon": {
+    "lat": 45.7653,
+    "lng": 4.9822
+  },
+  "Man City": {
+    "lat": 53.4831,
+    "lng": -2.2004
+  },
+  "Braintree Town": {
+    "lat": 51.9464939,
+    "lng": 0.6326725
+  },
+  "Wolverhampton": {
+    "lat": 52.6076564,
+    "lng": -2.1494975
+  },
+  "Santos": {
+    "lat": -23.9511,
+    "lng": -46.3389
+  },
+  "AC Milan": {
+    "lat": 45.4781,
+    "lng": 9.124
+  },
+  "AE Kifisia": {
+    "lat": 38.072085,
+    "lng": 23.8112018
+  },
+  "AIK": {
+    "lat": 59.3729,
+    "lng": 18.0000
+  },
+  "AJ Auxerre": {
+    "lat": 47.7865182,
+    "lng": 3.5873446
+  },
+  "AS Monaco": {
+    "lat": 43.7276,
+    "lng": 7.4156
+  },
+  "AS Roma": {
+    "lat": 41.9339,
+    "lng": 12.4547
+  },
+  "Abha Club": {
+    "lat": 18.2164,
+    "lng": 42.5088
+  },
+  "Ajax": {
+    "lat": 52.3142,
+    "lng": 4.9419
+  },
+  "Ajax Amsterdam": {
+    "lat": 52.3446377,
+    "lng": 4.9502708
+  },
+  "Al Ahli": {
+    "lat": 21.763,
+    "lng": 39.165
+  },
+  "Al Ahly": {
+    "lat": 30.0871193,
+    "lng": 31.3343234
+  },
+  "Al Ain": {
+    "lat": 24.2248697,
+    "lng": 55.7452211
+  },
+  "Al Bataeh": {
+    "lat": 25.2660333,
+    "lng": 55.7320488
+  },
+  "Al Hilal": {
+    "lat": 24.7867,
+    "lng": 46.6042
+  },
+  "Al Jazira": {
+    "lat": 24.4542,
+    "lng": 54.4
+  },
+  "Al Najma": {
+    "lat": 26.1736,
+    "lng": 50.5478
+  },
+  "Al Wakrah": {
+    "lat": 25.0037453,
+    "lng": 51.4103338
+  },
+  "Al-Ahli": {
+    "lat": 21.763,
+    "lng": 39.165
+  },
+  "Al-Hilal": {
+    "lat": 24.7867,
+    "lng": 46.6042
+  },
+  "Al-Ittihad": {
+    "lat": 21.763,
+    "lng": 39.165
+  },
+  "Al-Nassr": {
+    "lat": 24.7402551,
+    "lng": 46.6268507
+  },
+  "Almere City": {
+    "lat": 52.3704954,
+    "lng": 5.2152939
+  },
+  "Anderlecht": {
+    "lat": 50.8390983,
+    "lng": 4.3296526
+  },
+  "Angers": {
+    "lat": 47.4739884,
+    "lng": -0.5515588
+  },
+  "Apollon Limassol": {
+    "lat": 34.6857014,
+    "lng": 33.0319151
+  },
+  "Aris Limassol": {
+    "lat": 34.7048925,
+    "lng": 33.0654614
+  },
+  "Arsenal": {
+    "lat": 51.5583839,
+    "lng": -0.1074866
+  },
+  "Astana": {
+    "lat": 51.1282205,
+    "lng": 71.4306682
+  },
+  "Aston Villa": {
+    "lat": 52.5092,
+    "lng": -1.8848
+  },
+  "Atalanta": {
+    "lat": 45.7092,
+    "lng": 9.6808
+  },
+  "Athletic Bilbao": {
+    "lat": 43.2625346,
+    "lng": -2.9466836
+  },
+  "Atletico Madrid": {
+    "lat": 40.4018734,
+    "lng": -3.7204204
+  },
+  "Atromitos": {
+    "lat": 38.0637014,
+    "lng": 23.7716499
+  },
+  "Auckland FC": {
+    "lat": -36.852095,
+    "lng": 174.7631803
+  },
+  "Augsburg": {
+    "lat": 48.3690341,
+    "lng": 10.8979522
+  },
+  "Austria Wien": {
+    "lat": 48.2083537,
+    "lng": 16.3725042
+  },
+  "Auxerre": {
+    "lat": 47.7961287,
+    "lng": 3.570579
+  },
+  "Barcelona": {
+    "lat": 41.3825802,
+    "lng": 2.177073
+  },
+  "Bastia": {
+    "lat": 42.6974612,
+    "lng": 9.4497707
+  },
+  "Bayer Leverkusen": {
+    "lat": 51.0222804,
+    "lng": 6.9885981
+  },
+  "Bayern Munich": {
+    "lat": 48.2188,
+    "lng": 11.6247
+  },
+  "Benfica": {
+    "lat": 38.7481712,
+    "lng": -9.1994775
+  },
+  "Birmingham": {
+    "lat": 52.4948994,
+    "lng": -1.8518439
+  },
+  "Bodo/Glimt": {
+    "lat": 67.2760796,
+    "lng": 14.3843272
+  },
+  "Bologna": {
+    "lat": 44.4938203,
+    "lng": 11.3426327
+  },
+  "Borussia Dortmund": {
+    "lat": 51.4875376,
+    "lng": 7.3790071
+  },
+  "Borussia Moenchengladbach": {
+    "lat": 51.1746249,
+    "lng": 6.3854094
+  },
+  "Borussia Monchengladbach": {
+    "lat": 51.1746249,
+    "lng": 6.3854094
+  },
+  "Botafogo": {
+    "lat": -22.9515096,
+    "lng": -43.1862969
+  },
+  "Bournemouth": {
+    "lat": 50.7446718,
+    "lng": -1.8579514
+  },
+  "Braga": {
+    "lat": 41.5510583,
+    "lng": -8.4280045
+  },
+  "Brentford": {
+    "lat": 51.4863958,
+    "lng": -0.3216623
+  },
+  "Brighton and Hove Albion": {
+    "lat": 50.819711,
+    "lng": -0.1374186
+  },
+  "Brondby": {
+    "lat": 55.644111,
+    "lng": 12.4217135
+  },
+  "Burnley": {
+    "lat": 53.7907262,
+    "lng": -2.2439196
+  },
+  "Casa Pia": {
+    "lat": 38.742,
+    "lng": -9.205
+  },
+  "Castellon": {
+    "lat": 40.2518568,
+    "lng": -0.0615052
+  },
+  "Caykur Rizespor": {
+    "lat": 41.046629,
+    "lng": 40.5874538
+  },
+  "Celta Vigo": {
+    "lat": 42.2119,
+    "lng": -8.7397
+  },
+  "Celtic": {
+    "lat": 55.8497,
+    "lng": -4.2056
+  },
+  "Charleroi": {
+    "lat": 50.4116233,
+    "lng": 4.444528
+  },
+  "Chelsea": {
+    "lat": 51.4888554,
+    "lng": -0.1653781
+  },
+  "Club Brugge": {
+    "lat": 51.3269146,
+    "lng": 3.189557
+  },
+  "Colorado Springs": {
+    "lat": 38.8339578,
+    "lng": -104.825348
+  },
+  "Columbus Crew": {
+    "lat": 40.009468,
+    "lng": -82.9911382
+  },
+  "Como": {
+    "lat": 45.9394759,
+    "lng": 9.1494101
+  },
+  "Copenhagen": {
+    "lat": 55.6867243,
+    "lng": 12.5700724
+  },
+  "Cremonese": {
+    "lat": 45.1683868,
+    "lng": 9.8900934
+  },
+  "Crystal Palace": {
+    "lat": 51.4193664,
+    "lng": -0.0711328
+  },
+  "Daejeon": {
+    "lat": 36.3497007,
+    "lng": 127.3849016
+  },
+  "Derby County": {
+    "lat": 52.915,
+    "lng": -1.447
+  },
+  "Dinamo Zagreb": {
+    "lat": 45.8186879,
+    "lng": 16.0179376
+  },
+  "Dynamo Makhachkala": {
+    "lat": 42.9804821,
+    "lng": 47.5072059
+  },
+  "Eintracht Frankfurt": {
+    "lat": 50.1051849,
+    "lng": 8.5742817
+  },
+  "El Gouna": {
+    "lat": 27.3989266,
+    "lng": 33.6741556
+  },
+  "El Paso Locomotive": {
+    "lat": 31.7619,
+    "lng": -106.484
+  },
+  "Enppi": {
+    "lat": 29.9964775,
+    "lng": 31.4393628
+  },
+  "Espanyol": {
+    "lat": 41.3479,
+    "lng": 2.0757
+  },
+  "Esperance": {
+    "lat": 36.7473,
+    "lng": 10.2726
+  },
+  "Esteghlal": {
+    "lat": 35.7471696,
+    "lng": 51.2842859
+  },
+  "Estrela Amadora": {
+    "lat": 38.7514958,
+    "lng": -9.2271488
+  },
+  "Etoile Sahel": {
+    "lat": 35.8238703,
+    "lng": 10.6069105
+  },
+  "Everton": {
+    "lat": 53.4388,
+    "lng": -2.9663
+  },
+  "FC Augsburg": {
+    "lat": 48.3965594,
+    "lng": 10.8829094
+  },
+  "FC Copenhagen": {
+    "lat": 55.6867243,
+    "lng": 12.5700724
+  },
+  "FC Den Bosch": {
+    "lat": 51.6935433,
+    "lng": 5.3303762
+  },
+  "FC Tokyo": {
+    "lat": 35.5706911,
+    "lng": 139.4892946
+  },
+  "FC Volendam": {
+    "lat": 52.4944291,
+    "lng": 5.0662645
+  },
+  "FC Zurich": {
+    "lat": 47.3828,
+    "lng": 8.5042
+  },
+  "FCSB": {
+    "lat": 44.3411304,
+    "lng": 26.1510174
+  },
+  "Farense": {
+    "lat": 37.0006425,
+    "lng": -7.9531253
+  },
+  "Fenerbahce": {
+    "lat": 40.9696064,
+    "lng": 29.0375737
+  },
+  "Ferencvaros": {
+    "lat": 47.4687545,
+    "lng": 19.088223
+  },
+  "Feyenoord": {
+    "lat": 51.8941793,
+    "lng": 4.5246367
+  },
+  "Fiorentina": {
+    "lat": 43.7808,
+    "lng": 11.2825
+  },
+  "Flamengo": {
+    "lat": -22.9339841,
+    "lng": -43.1745744
+  },
+  "Fortuna Dusseldorf": {
+    "lat": 51.2268884,
+    "lng": 6.811838
+  },
+  "Freiburg": {
+    "lat": 47.9960901,
+    "lng": 7.8494005
+  },
+  "Galatasaray": {
+    "lat": 41.0324757,
+    "lng": 28.9735828
+  },
+  "Gangwon": {
+    "lat": 37.7725252,
+    "lng": 128.3820739
+  },
+  "Gaziantep": {
+    "lat": 37.0628317,
+    "lng": 37.3792617
+  },
+  "Genclerbirligi": {
+    "lat": 39.9746817,
+    "lng": 32.815788
+  },
+  "Genk": {
+    "lat": 50.9667627,
+    "lng": 5.4833953
+  },
+  "Genoa": {
+    "lat": 44.40726,
+    "lng": 8.9338624
+  },
+  "Gil Vicente": {
+    "lat": 41.5369,
+    "lng": -8.618
+  },
+  "Girona": {
+    "lat": 41.9793006,
+    "lng": 2.8199439
+  },
+  "Gremio": {
+    "lat": -29.9739,
+    "lng": -51.1944
+  },
+  "Hamburg": {
+    "lat": 53.5501721,
+    "lng": 10.0013165
+  },
+  "Hamburger SV": {
+    "lat": 53.5140972,
+    "lng": 10.2171566
+  },
+  "Hannover 96": {
+    "lat": 52.36,
+    "lng": 9.7311
+  },
+  "Hoffenheim": {
+    "lat": 49.2723872,
+    "lng": 8.8409448
+  },
+  "Holstein Kiel": {
+    "lat": 54.3227085,
+    "lng": 10.135555
+  },
+  "Hull City": {
+    "lat": 53.7435722,
+    "lng": -0.3394758
+  },
+  "Igdir": {
+    "lat": 39.8945,
+    "lng": 43.9427
+  },
+  "Igd\u0131r": {
+    "lat": 39.8945292,
+    "lng": 43.9427459
+  },
+  "Inter Milan": {
+    "lat": 45.4781,
+    "lng": 9.124
+  },
+  "Istanbul Basaksehir": {
+    "lat": 41.1075794,
+    "lng": 28.7950711
+  },
+  "Jagiellonia Bialystok": {
+    "lat": 53.1398608,
+    "lng": 23.1593289
+  },
+  "Jeonbuk": {
+    "lat": 35.8198999,
+    "lng": 127.109
+  },
+  "Juventus": {
+    "lat": 44.9779934,
+    "lng": 7.6151806
+  },
+  "KAA Gent": {
+    "lat": 51.0912286,
+    "lng": 3.7648355
+  },
+  "Karlsruher SC": {
+    "lat": 49.0196238,
+    "lng": 8.4123481
+  },
+  "Kashima Antlers": {
+    "lat": 36.0260374,
+    "lng": 140.0605445
+  },
+  "Kasimpasa": {
+    "lat": 41.0318,
+    "lng": 28.9693
+  },
+  "Kayserispor": {
+    "lat": 38.7656368,
+    "lng": 35.4592488
+  },
+  "Kilmarnock": {
+    "lat": 55.6100589,
+    "lng": -4.4964652
+  },
+  "Konyaspor": {
+    "lat": 37.9461978,
+    "lng": 32.4867282
+  },
+  "Krasnodar": {
+    "lat": 45.0351532,
+    "lng": 38.9772396
+  },
+  "LDU Quito": {
+    "lat": -0.1076845,
+    "lng": -78.4890331
+  },
+  "Larisa": {
+    "lat": 39.6167,
+    "lng": 22.3977
+  },
+  "Le Havre": {
+    "lat": 49.4938975,
+    "lng": 0.1079732
+  },
+  "Le Havre AC": {
+    "lat": 49.4938975,
+    "lng": 0.1079732
+  },
+  "Leeds United": {
+    "lat": 53.7778,
+    "lng": -1.5721
+  },
+  "Lens": {
+    "lat": 50.4291723,
+    "lng": 2.8319805
+  },
+  "Lille": {
+    "lat": 50.6365654,
+    "lng": 3.0635282
+  },
+  "Liverpool": {
+    "lat": 53.3933411,
+    "lng": -2.9166389
+  },
+  "Lorient": {
+    "lat": 47.7477336,
+    "lng": -3.3660907
+  },
+  "Ludogorets": {
+    "lat": 43.8165674,
+    "lng": 27.1376274
+  },
+  "Lugano": {
+    "lat": 46.0038007,
+    "lng": 8.9512275
+  },
+  "Maccabi Haifa": {
+    "lat": 32.8011262,
+    "lng": 34.9865616
+  },
+  "Maccabi Tel Aviv": {
+    "lat": 32.0148317,
+    "lng": 34.7644246
+  },
+  "Mainz": {
+    "lat": 49.9995205,
+    "lng": 8.2736253
+  },
+  "Mainz 05": {
+    "lat": 49.9842,
+    "lng": 8.2242
+  },
+  "Mallorca": {
+    "lat": 39.5904,
+    "lng": 2.6306
+  },
+  "Malmo": {
+    "lat": 55.6052931,
+    "lng": 13.0001566
+  },
+  "Manchester City": {
+    "lat": 53.4794892,
+    "lng": -2.2451148
+  },
+  "Manchester United": {
+    "lat": 53.4631,
+    "lng": -2.2913
+  },
+  "Miami FC": {
+    "lat": 25.7741566,
+    "lng": -80.1935973
+  },
+  "Middlesbrough": {
+    "lat": 54.5760419,
+    "lng": -1.2344047
+  },
+  "Midtjylland": {
+    "lat": 56.2356484,
+    "lng": 9.234625
+  },
+  "Millwall": {
+    "lat": 51.4933423,
+    "lng": -0.0212187
+  },
+  "Minnesota United": {
+    "lat": 45.1572737,
+    "lng": -93.2259566
+  },
+  "Mjallby": {
+    "lat": 56.0472695,
+    "lng": 14.6780706
+  },
+  "Monaco": {
+    "lat": 43.7323492,
+    "lng": 7.4276832
+  },
+  "Montpellier": {
+    "lat": 43.6112422,
+    "lng": 3.8767337
+  },
+  "Motherwell": {
+    "lat": 55.7893512,
+    "lng": -3.9904173
+  },
+  "NK Maribor": {
+    "lat": 46.5248543,
+    "lng": 15.710157
+  },
+  "Napoli": {
+    "lat": 40.8358846,
+    "lng": 14.2487679
+  },
+  "Newcastle": {
+    "lat": 54.9738474,
+    "lng": -1.6131572
+  },
+  "Newcastle United": {
+    "lat": 54.9756,
+    "lng": -1.6217
+  },
+  "Nice": {
+    "lat": 43.7009358,
+    "lng": 7.2683912
+  },
+  "Noah": {
+    "lat": 40.155,
+    "lng": 44.038
+  },
+  "Nordsjaelland": {
+    "lat": 55.9775728,
+    "lng": 12.1294883
+  },
+  "Norrkoping": {
+    "lat": 58.5909124,
+    "lng": 16.1903511
+  },
+  "Norwich City": {
+    "lat": 52.626307,
+    "lng": 1.3076876
+  },
+  "Nottingham Forest": {
+    "lat": 52.9399,
+    "lng": -1.1326
+  },
+  "Omonia": {
+    "lat": 35.1147,
+    "lng": 33.3626
+  },
+  "Orlando City": {
+    "lat": 28.5411,
+    "lng": -81.389
+  },
+  "Osasuna": {
+    "lat": 42.7967,
+    "lng": -1.6375
+  },
+  "PEC Zwolle": {
+    "lat": 52.517052,
+    "lng": 6.1198816
+  },
+  "PSV Eindhoven": {
+    "lat": 51.4393903,
+    "lng": 5.4778235
+  },
+  "Pafos": {
+    "lat": 34.7743988,
+    "lng": 32.4231586
+  },
+  "Panathinaikos": {
+    "lat": 37.9825968,
+    "lng": 23.6947195
+  },
+  "Paris FC": {
+    "lat": 48.818,
+    "lng": 2.3469
+  },
+  "Paris St Germain": {
+    "lat": 48.8414,
+    "lng": 2.253
+  },
+  "Paris St-Germain": {
+    "lat": 48.8414,
+    "lng": 2.253
+  },
+  "Parma Calcio": {
+    "lat": 44.7530277,
+    "lng": 10.2294748
+  },
+  "Peterborough United": {
+    "lat": 52.5647,
+    "lng": -0.2404
+  },
+  "Philadelphia Union": {
+    "lat": 39.8322,
+    "lng": -75.3789
+  },
+  "Pisa": {
+    "lat": 43.4714722,
+    "lng": 10.6797912
+  },
+  "Port Vale": {
+    "lat": 53.0497,
+    "lng": -2.1925
+  },
+  "Portland Timbers": {
+    "lat": 45.6032616,
+    "lng": -122.751311
+  },
+  "Puskas Akademia": {
+    "lat": 47.4630685,
+    "lng": 18.5855097
+  },
+  "Pyramids": {
+    "lat": 30.016,
+    "lng": 31.41
+  },
+  "RB Leipzig": {
+    "lat": 51.3443163,
+    "lng": 12.3403113
+  },
+  "RKC Waalwijk": {
+    "lat": 51.6883856,
+    "lng": 5.0885968
+  },
+  "Racing Genk": {
+    "lat": 50.9656336,
+    "lng": 5.4468752
+  },
+  "Racing Strasbourg": {
+    "lat": 48.5843836,
+    "lng": 7.7465037
+  },
+  "Rayo Vallecano": {
+    "lat": 40.3765566,
+    "lng": -3.6142162
+  },
+  "Real Betis": {
+    "lat": 37.3862689,
+    "lng": -5.9942194
+  },
+  "Real Madrid": {
+    "lat": 40.4530549,
+    "lng": -3.6883445
+  },
+  "Real Ovideo": {
+    "lat": 43.3608,
+    "lng": -5.8703
+  },
+  "Real Sociedad": {
+    "lat": 43.3218553,
+    "lng": -1.9833251
+  },
+  "Red Star Belgrade": {
+    "lat": 44.807047,
+    "lng": 20.4643707
+  },
+  "Rennes": {
+    "lat": 48.1113387,
+    "lng": -1.6800198
+  },
+  "Rijeka": {
+    "lat": 45.3267976,
+    "lng": 14.442208
+  },
+  "Rizespor": {
+    "lat": 41.046629,
+    "lng": 40.5874538
+  },
+  "Roma": {
+    "lat": 41.8933203,
+    "lng": 12.4829321
+  },
+  "Rotherham United": {
+    "lat": 53.4268744,
+    "lng": -1.3624712
+  },
+  "SC Freiburg": {
+    "lat": 47.9892266,
+    "lng": 7.8923089
+  },
+  "SC Telstar": {
+    "lat": 52.4601,
+    "lng": 4.6269
+  },
+  "SJK": {
+    "lat": 62.7802,
+    "lng": 22.8401
+  },
+  "Saint-\u00c9tienne": {
+    "lat": 45.4401467,
+    "lng": 4.3873058
+  },
+  "Sampdoria": {
+    "lat": 44.4164,
+    "lng": 8.9524
+  },
+  "Samsunspor": {
+    "lat": 41.276854,
+    "lng": 36.3558754
+  },
+  "San Diego": {
+    "lat": 32.7174202,
+    "lng": -117.162772
+  },
+  "Sassuolo": {
+    "lat": 44.5409769,
+    "lng": 10.7829023
+  },
+  "Schalke 04": {
+    "lat": 51.5228667,
+    "lng": 7.0874533
+  },
+  "Servette Geneva": {
+    "lat": 46.2129466,
+    "lng": 6.1311729
+  },
+  "Sevilla": {
+    "lat": 37.3886303,
+    "lng": -5.9953403
+  },
+  "Shamrock Rovers": {
+    "lat": 53.2843644,
+    "lng": -6.375213
+  },
+  "Sheffield United": {
+    "lat": 53.3703,
+    "lng": -1.4708
+  },
+  "Silkeborg IF": {
+    "lat": 56.1841253,
+    "lng": 9.5758691
+  },
+  "Sint-Truiden": {
+    "lat": 50.8152784,
+    "lng": 5.1858896
+  },
+  "Slovan Liberec": {
+    "lat": 50.7762322,
+    "lng": 15.0499954
+  },
+  "Sochaux": {
+    "lat": 47.5138641,
+    "lng": 6.8305344
+  },
+  "Sparta Rotterdam": {
+    "lat": 51.9194555,
+    "lng": 4.4335507
+  },
+  "Spartak Moscow": {
+    "lat": 55.8175885,
+    "lng": 37.4406099
+  },
+  "Sporting": {
+    "lat": 38.7612,
+    "lng": -9.1608
+  },
+  "St Pauli": {
+    "lat": 53.5539347,
+    "lng": 9.9594316
+  },
+  "St. Pauli": {
+    "lat": 53.5539347,
+    "lng": 9.9594316
+  },
+  "Stade Rennais": {
+    "lat": 48.1075,
+    "lng": -1.7129
+  },
+  "Stade de Reims": {
+    "lat": 49.2858867,
+    "lng": 4.0384073
+  },
+  "Standard Liege": {
+    "lat": 50.6109577,
+    "lng": 5.5439342
+  },
+  "Stoke City": {
+    "lat": 52.9883,
+    "lng": -2.1756
+  },
+  "Strasbourg": {
+    "lat": 48.584614,
+    "lng": 7.7507127
+  },
+  "Stuttgart": {
+    "lat": 48.7784485,
+    "lng": 9.1800132
+  },
+  "Sunderland": {
+    "lat": 54.9058512,
+    "lng": -1.3828727
+  },
+  "Swansea": {
+    "lat": 51.6195955,
+    "lng": -3.9459248
+  },
+  "Swansea City": {
+    "lat": 51.6195955,
+    "lng": -3.9459248
+  },
+  "Tatran Presov": {
+    "lat": 49.0067995,
+    "lng": 21.235522
+  },
+  "Terengganu FC": {
+    "lat": 5.3296461,
+    "lng": 103.1383265
+  },
+  "Torino": {
+    "lat": 45.0677551,
+    "lng": 7.6824892
+  },
+  "Toronto": {
+    "lat": 43.6534817,
+    "lng": -79.3839347
+  },
+  "Torreense": {
+    "lat": 39.190739,
+    "lng": -9.1845599
+  },
+  "Tottenham": {
+    "lat": 51.5976955,
+    "lng": -0.0672892
+  },
+  "Trabzonspor": {
+    "lat": 40.9981,
+    "lng": 39.6466
+  },
+  "US Monastir": {
+    "lat": 35.7707582,
+    "lng": 10.8280511
+  },
+  "Udinese": {
+    "lat": 46.0819,
+    "lng": 13.1994
+  },
+  "Union Berlin": {
+    "lat": 52.4575,
+    "lng": 13.5682
+  },
+  "Union St-Gilloise": {
+    "lat": 50.8202247,
+    "lng": 4.3308055
+  },
+  "Universitatea Cluj": {
+    "lat": 46.7677836,
+    "lng": 23.5919766
+  },
+  "VVV-Venlo": {
+    "lat": 51.3688259,
+    "lng": 6.1698466
+  },
+  "Valencia": {
+    "lat": 39.4697065,
+    "lng": -0.3763353
+  },
+  "Vancouver Whitecaps": {
+    "lat": 49.2847776,
+    "lng": -123.1107503
+  },
+  "VfB Stuttgart": {
+    "lat": 48.7788452,
+    "lng": 9.1783022
+  },
+  "Viking": {
+    "lat": 58.9146,
+    "lng": 5.7308
+  },
+  "Viktoria Plzen": {
+    "lat": 49.7508486,
+    "lng": 13.3859991
+  },
+  "Villarreal": {
+    "lat": 39.9372616,
+    "lng": -0.1004465
+  },
+  "Violette": {
+    "lat": 19.5510774,
+    "lng": -72.5060139
+  },
+  "Vitoria Guimaraes": {
+    "lat": 41.4458776,
+    "lng": -8.3009338
+  },
+  "Vizela": {
+    "lat": 41.3767158,
+    "lng": -8.3083651
+  },
+  "Watford": {
+    "lat": 51.6553875,
+    "lng": -0.3957425
+  },
+  "Wellington Phoenix": {
+    "lat": -41.2733,
+    "lng": 174.7859
+  },
+  "Werder Bremen": {
+    "lat": 53.0578312,
+    "lng": 8.8524088
+  },
+  "West Ham United": {
+    "lat": 51.5386,
+    "lng": -0.0165
+  },
+  "Western Sydney Wanderers": {
+    "lat": -33.7744076,
+    "lng": 150.8567946
+  },
+  "Widzew Lodz": {
+    "lat": 51.7539197,
+    "lng": 19.5181755
+  },
+  "Wolfsburg": {
+    "lat": 52.4205588,
+    "lng": 10.7861682
+  },
+  "Wolverhampton Wanderers": {
+    "lat": 52.5683108,
+    "lng": -2.1268241
+  },
+  "Wrexham": {
+    "lat": 53.0465084,
+    "lng": -2.9937869
+  },
+  "Young Boys": {
+    "lat": 46.963,
+    "lng": 7.4648
+  },
+  "Zamalek": {
+    "lat": 30.0629925,
+    "lng": 31.2196336
+  },
+  "Zed": {
+    "lat": 30.0444,
+    "lng": 31.2357
+  },
+  "Zenit St. Petersburg": {
+    "lat": 59.9719562,
+    "lng": 30.2119155
+  },
+  "Zhejiang": {
+    "lat": 29.0000001,
+    "lng": 119.9999999
+  },
+  "Zulte Waregem": {
+    "lat": 50.9093765,
+    "lng": 3.450827
+  },
+  "Fenerbache": {
+    "lat": 40.9696064,
+    "lng": 29.0375737
+  },
+  "both Sevilla": {
+    "lat": 37.3886303,
+    "lng": -5.9953403
+  },
+  "Barcelona on loan from Manchester United": {
+    "lat": 41.3825802,
+    "lng": 2.177073
+  },
+  "Lechia Gdansk, on loan from Bournemouth": {
+    "lat": 54.3906621,
+    "lng": 18.6396096
+  },
+  "Besitkas": {
+    "lat": 41.0428465,
+    "lng": 29.0075283
+  },
+  "FC Cosmos Koblenz": {
+    "lat": 50.3533278,
+    "lng": 7.5943951
+  },
+  "LAFC": {
+    "lat": 34.0536909,
+    "lng": -118.242766
+  },
+  "RB Salzburg": {
+    "lat": 47.8114017,
+    "lng": 12.9998313
+  },
+  "Racing Lens": {
+    "lat": 50.4291723,
+    "lng": 2.8319805
+  },
+  "Viking FK": {
+    "lat": 58.9145955,
+    "lng": 5.7309977
+  },
+  "Akron Tolyatti": {
+    "lat": 53.51,
+    "lng": 49.42
+  },
+  "Alanyaspor": {
+    "lat": 36.55,
+    "lng": 31.99
+  },
+  "CS Sfaxien": {
+    "lat": 34.74,
+    "lng": 10.76
+  },
+  "Cercle Brugge": {
+    "lat": 51.21,
+    "lng": 3.22
+  },
+  "Club Africain": {
+    "lat": 36.81,
+    "lng": 10.18
+  },
+  "NEC Nijmegen": {
+    "lat": 51.84,
+    "lng": 5.85
+  },
+  "Newcastle Jets": {
+    "lat": -32.93,
+    "lng": 151.7
+  },
+  "SK Beveren": {
+    "lat": 51.21,
+    "lng": 4.26
+  },
+  "Sanfrecce Hiroshima": {
+    "lat": 34.39,
+    "lng": 132.46
+  },
+  "Slaven Belupo": {
+    "lat": 46.16,
+    "lng": 16.83
+  },
+  "Young Boys Berne": {
+    "lat": 46.95,
+    "lng": 7.45
+  }
+}

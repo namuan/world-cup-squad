@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css'
 import { useMemo, useRef, useState, useEffect } from 'react'
 import squadData from '../data/squads.json'
 import countriesGeoJSON from '../data/countries.json'
+import clubCoords from '../data/club_coords.json'
 
 const TEAM_TO_GEOJSON: Record<string, string> = {
   Belgium: 'Belgium',
@@ -32,6 +33,8 @@ const TEAM_TO_GEOJSON: Record<string, string> = {
   Switzerland: 'Switzerland',
   Tunisia: 'Tunisia',
 }
+
+const clubCoordMap = clubCoords as Record<string, { lat: number; lng: number }>
 
 const CLUB_COUNTRY_MAP: Record<string, string> = {
   England: 'United Kingdom',
@@ -183,29 +186,34 @@ function WorldMap() {
       if (!teamCenter) continue
 
       const teamColor = FLAG_COLORS[teamGeoName] || '#64748b'
-      const destMap: Record<string, { center: L.LatLng; players: { name: string; club: string }[] }> = {}
+      const destMap: Record<string, { center: L.LatLng; toName: string; players: { name: string; club: string }[] }> = {}
 
       for (const player of squad.players) {
-        const rawClub = player.club_country
-        if (!rawClub) continue
-        const clubGeoName = resolveGeoName(rawClub)
-        if (!clubGeoName || clubGeoName === teamGeoName) continue
-        const clubCenter = countryCenters[clubGeoName]
-        if (!clubCenter) continue
+        const clubName = player.club
+        if (!clubName) continue
+        const coord = clubCoordMap[clubName]
+        if (!coord) continue
 
-        if (!destMap[clubGeoName]) {
-          destMap[clubGeoName] = { center: clubCenter, players: [] }
+        const rawClub = player.club_country
+        const clubGeoName = rawClub ? resolveGeoName(rawClub) : null
+        if (clubGeoName === teamGeoName) continue
+
+        const destCenter = L.latLng(coord.lat, coord.lng)
+        const key = `${coord.lat.toFixed(2)},${coord.lng.toFixed(2)}`
+
+        if (!destMap[key]) {
+          destMap[key] = { center: destCenter, toName: clubGeoName || '', players: [] }
         }
-        destMap[clubGeoName].players.push({ name: player.name, club: player.club || 'Unknown' })
+        destMap[key].players.push({ name: player.name, club: clubName })
       }
 
       const arcs: ConnectionArc[] = []
-      for (const [clubGeoName, dest] of Object.entries(destMap)) {
+      for (const [, dest] of Object.entries(destMap)) {
         if (dest.players.length > 0) {
           arcs.push({
             from: teamCenter,
             to: dest.center,
-            toName: clubGeoName,
+            toName: dest.toName,
             color: teamColor,
             count: dest.players.length,
             players: dest.players,
@@ -227,7 +235,7 @@ function WorldMap() {
     for (const [teamName, arcs] of Object.entries(connectionArcs)) {
       const d = new Set<string>()
       for (const arc of arcs) {
-        d.add(arc.toName)
+        if (arc.toName) d.add(arc.toName)
       }
       dests[teamName] = d
     }
@@ -321,6 +329,7 @@ function WorldMap() {
               weight={1 + count * 0.2}
               opacity={0.25}
               smoothFactor={1}
+              interactive={false}
             />
             {arc.players.map((player, j) => {
               const angle = (j / count) * Math.PI * 2 - Math.PI / 2
@@ -334,6 +343,7 @@ function WorldMap() {
                   fillOpacity={0}
                   opacity={0}
                   stroke={false}
+                  interactive={false}
                 >
                   <Tooltip permanent direction="center" className="player-label">
                     <div>{player.name}</div>
