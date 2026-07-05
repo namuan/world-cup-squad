@@ -35,6 +35,12 @@ npm run typecheck  # run TypeScript checks
 - `data/countries.json` contains GeoJSON country shapes.
 - `raw_data/` contains source HTML snapshots used to assemble the dataset.
 
+Squad data can be refreshed from the Wikipedia 2026 FIFA World Cup squads page:
+
+```bash
+python3 scripts/update_squads_from_wikipedia.py
+```
+
 ## GitHub Pages deployment
 
 This repo includes a GitHub Actions workflow at `.github/workflows/deploy.yml`.

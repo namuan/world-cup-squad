@@ -8,30 +8,54 @@ import countriesGeoJSON from '../data/countries.json'
 import clubCoords from '../data/club_coords.json'
 
 const TEAM_TO_GEOJSON: Record<string, string> = {
+  Algeria: 'Algeria',
+  Argentina: 'Argentina',
+  Australia: 'Australia',
+  Austria: 'Austria',
   Belgium: 'Belgium',
-  'Bosnia-Herzegovina': 'Bosnia and Herzegovina',
+  'Bosnia and Herzegovina': 'Bosnia and Herzegovina',
   Brazil: 'Brazil',
+  Canada: 'Canada',
   'Cape Verde': 'Cabo Verde',
+  Colombia: 'Colombia',
   Croatia: 'Croatia',
-  Curacao: 'Curaçao',
+  'Curaçao': 'Curaçao',
+  'Czech Republic': 'Czechia',
   'DR Congo': 'Democratic Republic of the Congo',
+  Ecuador: 'Ecuador',
   England: 'United Kingdom',
   France: 'France',
   Egypt: 'Egypt',
   Germany: 'Germany',
+  Ghana: 'Ghana',
   Haiti: 'Haiti',
+  Iran: 'Iran',
+  Iraq: 'Iraq',
   'Ivory Coast': 'Ivory Coast',
   Japan: 'Japan',
+  Jordan: 'Jordan',
+  Mexico: 'Mexico',
+  Morocco: 'Morocco',
+  Netherlands: 'Netherlands',
   'New Zealand': 'New Zealand',
   Norway: 'Norway',
+  Panama: 'Panama',
+  Paraguay: 'Paraguay',
   Portugal: 'Portugal',
+  Qatar: 'Qatar',
+  'Saudi Arabia': 'Saudi Arabia',
   Scotland: 'United Kingdom',
   Senegal: 'Senegal',
+  'South Africa': 'South Africa',
   'South Korea': 'South Korea',
   Spain: 'Spain',
   Sweden: 'Sweden',
   Switzerland: 'Switzerland',
   Tunisia: 'Tunisia',
+  Turkey: 'Turkey',
+  'United States': 'United States of America',
+  Uruguay: 'Uruguay',
+  Uzbekistan: 'Uzbekistan',
 }
 
 const clubCoordMap = clubCoords as Record<string, { lat: number; lng: number }>
@@ -44,32 +68,57 @@ const CLUB_COUNTRY_MAP: Record<string, string> = {
   UAE: 'United Arab Emirates',
   'Czech Republic': 'Czechia',
   Serbia: 'Republic of Serbia',
+  'Republic of Ireland': 'Ireland',
 }
 
 const FLAG_COLORS: Record<string, string> = {
+  Algeria: '#006633',
+  Argentina: '#75aadb',
+  Australia: '#00008b',
+  Austria: '#ed2939',
   Belgium: '#fdda24',
   'Bosnia and Herzegovina': '#0038a8',
   Brazil: '#009739',
+  Canada: '#ff0000',
   'Cabo Verde': '#003893',
+  Colombia: '#fcd116',
   Croatia: '#ff0000',
   Curaçao: '#00a8d7',
+  Czechia: '#d7141a',
   'Democratic Republic of the Congo': '#007fff',
+  Ecuador: '#ffdd00',
   'United Kingdom': '#ce1124',
   France: '#002654',
   Egypt: '#ce1126',
   Germany: '#ffcc00',
+  Ghana: '#fcd116',
   Haiti: '#00209f',
+  Iran: '#239f40',
+  Iraq: '#ce1126',
   'Ivory Coast': '#f77f00',
   Japan: '#bc002d',
+  Jordan: '#007a3d',
+  Mexico: '#006847',
+  Morocco: '#c1272d',
+  Netherlands: '#ae1c28',
   'New Zealand': '#00247d',
   Norway: '#ba0c2f',
+  Panama: '#005293',
+  Paraguay: '#0038a8',
   Portugal: '#046a38',
+  Qatar: '#8a1538',
+  'Saudi Arabia': '#006c35',
   Senegal: '#00853f',
+  'South Africa': '#007a4d',
   'South Korea': '#cd2e3a',
   Spain: '#f1bf00',
   Sweden: '#006aa7',
   Switzerland: '#ff0000',
   Tunisia: '#e70013',
+  Turkey: '#e30a17',
+  'United States of America': '#b22234',
+  Uruguay: '#0038a8',
+  Uzbekistan: '#0099b5',
 }
 
 const MAX_BOUNDS: LatLngBoundsExpression = [
@@ -191,15 +240,20 @@ function WorldMap() {
       for (const player of squad.players) {
         const clubName = player.club
         if (!clubName) continue
-        const coord = clubCoordMap[clubName]
-        if (!coord) continue
 
         const rawClub = player.club_country
         const clubGeoName = rawClub ? resolveGeoName(rawClub) : null
         if (clubGeoName === teamGeoName) continue
 
-        const destCenter = L.latLng(coord.lat, coord.lng)
-        const key = `${coord.lat.toFixed(2)},${coord.lng.toFixed(2)}`
+        const coord = clubCoordMap[clubName]
+        const destCenter = coord
+          ? L.latLng(coord.lat, coord.lng)
+          : (clubGeoName ? countryCenters[clubGeoName] : undefined)
+        if (!destCenter) continue
+
+        const key = coord
+          ? `${coord.lat.toFixed(2)},${coord.lng.toFixed(2)}`
+          : `${clubGeoName}:${clubName}`
 
         if (!destMap[key]) {
           destMap[key] = { center: destCenter, toName: clubGeoName || '', players: [] }
