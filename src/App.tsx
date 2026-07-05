@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, GeoJSON, useMap, Polyline, Tooltip, CircleMarker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, GeoJSON, useMap, Polyline, Tooltip, CircleMarker, Popup, Rectangle } from 'react-leaflet'
 import type { LatLngBoundsExpression, PathOptions, Map } from 'leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -190,11 +190,17 @@ type ConnectionArc = {
   players: { name: string; club: string }[]
 }
 
-function MapInit({ onMap }: { onMap: (map: Map) => void }) {
+function MapInit({ onMap, onZoom }: { onMap: (map: Map) => void; onZoom?: (zoom: number) => void }) {
   const map = useMap()
   useEffect(() => {
     onMap(map)
-  }, [map, onMap])
+    if (onZoom) {
+      onZoom(map.getZoom())
+      const handler = () => onZoom(map.getZoom())
+      map.on('zoomend', handler)
+      return () => { map.off('zoomend', handler) }
+    }
+  }, [map, onMap, onZoom])
   return null
 }
 
@@ -205,6 +211,7 @@ function WorldMap() {
   const [hoveredCountry, setHoveredCountry] = useState<string | null>(null)
   const selectedRef = useRef<string | null>(null)
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
+  const [zoom, setZoom] = useState(3)
 
   const setSelected = (name: string | null) => {
     selectedRef.current = name
@@ -273,7 +280,6 @@ function WorldMap() {
 
         const rawClub = player.club_country
         const clubGeoName = rawClub ? resolveGeoName(rawClub) : null
-        if (clubGeoName === teamGeoName) continue
 
         const coord = clubCoordMap[clubName]
         const destCenter = coord
@@ -400,10 +406,8 @@ function WorldMap() {
     >
       <MapInit onMap={(m) => {
         mapRef.current = m
-        m.on('click', () => {
-          setSelected(null)
-        })
-      }} />
+        m.on('click', () => setSelected(null))
+      }} onZoom={setZoom} />
       <TileLayer url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png" />
       <GeoJSON
         data={geoData}
@@ -414,6 +418,26 @@ function WorldMap() {
       {visibleArcs.map((arc, i) => {
         const count = arc.players.length
         const markerRadius = Math.min(3 + count * 0.15, 10)
+
+        const showPlayerLabels = zoom >= 7
+        const effectiveZoom = Math.min(zoom, 10)
+        const ppd = 256 * Math.pow(2, effectiveZoom) / 360
+
+        // Vertical list: club name at top, players stacked below, single column
+        const rowHDeg = 2 / ppd
+        const headerGapDeg = 10 / ppd
+        const totalH = headerGapDeg + (count - 1) * rowHDeg
+        const headerLat = arc.to.lat + totalH / 2
+
+        const padDeg = 6 / ppd
+        const bottomLat = headerLat - headerGapDeg - (count - 1) * rowHDeg
+        const boxBounds: LatLngBoundsExpression = showPlayerLabels
+          ? [
+              [bottomLat - padDeg, arc.to.lng - padDeg],
+              [headerLat + padDeg, arc.to.lng + padDeg],
+            ]
+          : [[0, 0], [0, 0]]
+
         return (
           <div key={i}>
             <Polyline
@@ -435,12 +459,14 @@ function WorldMap() {
               stroke={true}
               interactive={true}
             >
-              <Tooltip permanent direction="auto" className="club-label" offset={[6, 0]}>
-                <span style={{ fontWeight: 600 }}>{arc.toName}</span>
-                <span style={{ marginLeft: 4, opacity: 0.55 }}>
-                  · {count}
-                </span>
-              </Tooltip>
+              {!showPlayerLabels && (
+                <Tooltip permanent direction="auto" className="club-label" offset={[6, 0]}>
+                  <span style={{ fontWeight: 600 }}>{arc.toName}</span>
+                  <span style={{ marginLeft: 4, opacity: 0.55 }}>
+                    · {count}
+                  </span>
+                </Tooltip>
+              )}
               <Popup className="club-popup">
                 <div className="popup-scroll">
                   {arc.players.map((p, j) => (
@@ -452,6 +478,48 @@ function WorldMap() {
                 </div>
               </Popup>
             </CircleMarker>
+            {showPlayerLabels && (
+              <>
+                <Rectangle
+                  bounds={boxBounds}
+                  color={arc.color}
+                  weight={1}
+                  opacity={0.18}
+                  fillColor={arc.color}
+                  fillOpacity={0.05}
+                  interactive={false}
+                />
+                {/* Club name — top of the list */}
+                <CircleMarker
+                  center={L.latLng(headerLat, arc.to.lng)}
+                  radius={0}
+                  fillOpacity={0}
+                  opacity={0}
+                  stroke={false}
+                  interactive={false}
+                >
+                  <Tooltip permanent direction="center" className="club-name-label" offset={[0, 0]}>
+                    {arc.toName}
+                  </Tooltip>
+                </CircleMarker>
+                {/* Players — vertical column below club name */}
+                {arc.players.map((player, j) => (
+                  <CircleMarker
+                    key={`p-${j}`}
+                    center={L.latLng(headerLat - headerGapDeg - j * rowHDeg, arc.to.lng)}
+                    radius={0}
+                    fillOpacity={0}
+                    opacity={0}
+                    stroke={false}
+                    interactive={false}
+                  >
+                    <Tooltip permanent direction="center" className="player-name-label" offset={[0, 0]}>
+                      {player.name}
+                    </Tooltip>
+                  </CircleMarker>
+                ))}
+              </>
+            )}
           </div>
         )
       })}
