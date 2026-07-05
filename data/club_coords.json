@@ -33,7 +33,7 @@
   },
   "Nancy": {
     "lat": 48.695,
-    "lng": 6.210
+    "lng": 6.21
   },
   "Porto": {
     "lat": 41.1618,
@@ -73,7 +73,7 @@
   },
   "AIK": {
     "lat": 59.3729,
-    "lng": 18.0000
+    "lng": 18.0
   },
   "AJ Auxerre": {
     "lat": 47.7865182,
@@ -519,7 +519,7 @@
     "lat": 39.8945,
     "lng": 43.9427
   },
-  "Igd\u0131r": {
+  "Igdır": {
     "lat": 39.8945292,
     "lng": 43.9427459
   },
@@ -871,7 +871,7 @@
     "lat": 62.7802,
     "lng": 22.8401
   },
-  "Saint-\u00c9tienne": {
+  "Saint-Étienne": {
     "lat": 45.4401467,
     "lng": 4.3873058
   },
@@ -1214,5 +1214,1045 @@
   "Young Boys Berne": {
     "lat": 46.95,
     "lng": 7.45
+  },
+  "Abha": {
+    "lat": 18.2164,
+    "lng": 42.5088
+  },
+  "Al-Najma": {
+    "lat": 26.1736,
+    "lng": 50.5478
+  },
+  "Al-Wakrah": {
+    "lat": 25.0037453,
+    "lng": 51.4103338
+  },
+  "Atlético Madrid": {
+    "lat": 40.4018734,
+    "lng": -3.7204204
+  },
+  "Barcelona B": {
+    "lat": 41.3825802,
+    "lng": 2.177073
+  },
+  "Beveren": {
+    "lat": 51.21,
+    "lng": 4.26
+  },
+  "Beşiktaş": {
+    "lat": 41.0428465,
+    "lng": 29.0075283
+  },
+  "Birmingham City": {
+    "lat": 52.4948994,
+    "lng": -1.8518439
+  },
+  "Bodø/Glimt": {
+    "lat": 67.2760796,
+    "lng": 14.3843272
+  },
+  "Borussia Mönchengladbach": {
+    "lat": 51.1746249,
+    "lng": 6.3854094
+  },
+  "Brighton & Hove Albion": {
+    "lat": 50.819711,
+    "lng": -0.1374186
+  },
+  "Brøndby": {
+    "lat": 55.644111,
+    "lng": 12.4217135
+  },
+  "Castellón": {
+    "lat": 40.2518568,
+    "lng": -0.0615052
+  },
+  "Colorado Springs Switchbacks FC": {
+    "lat": 38.8339578,
+    "lng": -104.825348
+  },
+  "Cosmos Koblenz": {
+    "lat": 50.3533278,
+    "lng": 7.5943951
+  },
+  "Daejeon Hana Citizen": {
+    "lat": 36.3497007,
+    "lng": 127.3849016
+  },
+  "Den Bosch": {
+    "lat": 51.6935433,
+    "lng": 5.3303762
+  },
+  "El Paso Locomotive FC": {
+    "lat": 31.7619,
+    "lng": -106.484
+  },
+  "Espérance de Tunis": {
+    "lat": 36.7473,
+    "lng": 10.2726
+  },
+  "FC Dallas": {
+    "lat": 32.8867235,
+    "lng": -96.8391412
+  },
+  "FC St. Pauli": {
+    "lat": 53.5539347,
+    "lng": 9.9594316
+  },
+  "Fenerbahçe": {
+    "lat": 40.9696064,
+    "lng": 29.0375737
+  },
+  "Ferencváros": {
+    "lat": 47.4687545,
+    "lng": 19.088223
+  },
+  "Fortuna Düsseldorf": {
+    "lat": 51.2268884,
+    "lng": 6.811838
+  },
+  "Gangwon FC": {
+    "lat": 37.7725252,
+    "lng": 128.3820739
+  },
+  "Gent": {
+    "lat": 51.0912286,
+    "lng": 3.7648355
+  },
+  "Grêmio": {
+    "lat": -29.9739,
+    "lng": -51.1944
+  },
+  "IFK Norrköping": {
+    "lat": 58.5909124,
+    "lng": 16.1903511
+  },
+  "Iğdır": {
+    "lat": 39.8945,
+    "lng": 43.9427
+  },
+  "Jagiellonia Białystok": {
+    "lat": 53.1398608,
+    "lng": 23.1593289
+  },
+  "Jeonbuk Hyundai Motors": {
+    "lat": 35.8198999,
+    "lng": 127.109
+  },
+  "Kasımpaşa": {
+    "lat": 41.0318,
+    "lng": 28.9693
+  },
+  "Kifisia": {
+    "lat": 38.072085,
+    "lng": 23.8112018
+  },
+  "Los Angeles FC": {
+    "lat": 34.0536909,
+    "lng": -118.242766
+  },
+  "Ludogorets Razgrad": {
+    "lat": 43.8165674,
+    "lng": 27.1376274
+  },
+  "Malmö FF": {
+    "lat": 55.6052931,
+    "lng": 13.0001566
+  },
+  "Maribor": {
+    "lat": 46.5248543,
+    "lng": 15.710157
+  },
+  "Milan": {
+    "lat": 45.4781,
+    "lng": 9.124
+  },
+  "Minnesota United FC": {
+    "lat": 45.1572737,
+    "lng": -93.2259566
+  },
+  "Mjällby AIF": {
+    "lat": 56.0472695,
+    "lng": 14.6780706
+  },
+  "NEC": {
+    "lat": 51.84,
+    "lng": 5.85
+  },
+  "Nordsjælland": {
+    "lat": 55.9775728,
+    "lng": 12.1294883
+  },
+  "Orlando City SC": {
+    "lat": 28.5411,
+    "lng": -81.389
+  },
+  "Oviedo": {
+    "lat": 43.3608,
+    "lng": -5.8703
+  },
+  "Paris Saint-Germain": {
+    "lat": 48.8414,
+    "lng": 2.253
+  },
+  "Parma": {
+    "lat": 44.7530277,
+    "lng": 10.2294748
+  },
+  "Puskás Akadémia": {
+    "lat": 47.4630685,
+    "lng": 18.5855097
+  },
+  "Red Bull Salzburg": {
+    "lat": 47.8114017,
+    "lng": 12.9998313
+  },
+  "Reims": {
+    "lat": 49.2858867,
+    "lng": 4.0384073
+  },
+  "San Diego FC": {
+    "lat": 32.7174202,
+    "lng": -117.162772
+  },
+  "Servette": {
+    "lat": 46.2129466,
+    "lng": 6.1311729
+  },
+  "Silkeborg": {
+    "lat": 56.1841253,
+    "lng": 9.5758691
+  },
+  "Sporting CP": {
+    "lat": 38.7612,
+    "lng": -9.1608
+  },
+  "Standard Liège": {
+    "lat": 50.6109577,
+    "lng": 5.5439342
+  },
+  "TSG Hoffenheim": {
+    "lat": 49.2723872,
+    "lng": 8.8409448
+  },
+  "Tatran Prešov": {
+    "lat": 49.0067995,
+    "lng": 21.235522
+  },
+  "Telstar": {
+    "lat": 52.4601,
+    "lng": 4.6269
+  },
+  "Terengganu": {
+    "lat": 5.3296461,
+    "lng": 103.1383265
+  },
+  "Toronto FC": {
+    "lat": 43.6534817,
+    "lng": -79.3839347
+  },
+  "Tottenham Hotspur": {
+    "lat": 51.5976955,
+    "lng": -0.0672892
+  },
+  "Ulsan HD": {
+    "lat": 35.535263,
+    "lng": 129.2594949
+  },
+  "Union Saint-Gilloise": {
+    "lat": 50.8202247,
+    "lng": 4.3308055
+  },
+  "Vancouver Whitecaps FC": {
+    "lat": 49.2847776,
+    "lng": -123.1107503
+  },
+  "VfL Wolfsburg": {
+    "lat": 52.4205588,
+    "lng": 10.7861682
+  },
+  "Viktoria Plzeň": {
+    "lat": 49.7508486,
+    "lng": 13.3859991
+  },
+  "Volendam": {
+    "lat": 52.4944291,
+    "lng": 5.0662645
+  },
+  "Widzew Łódź": {
+    "lat": 51.7539197,
+    "lng": 19.5181755
+  },
+  "Zenit Saint Petersburg": {
+    "lat": 59.9719562,
+    "lng": 30.2119155
+  },
+  "Zürich": {
+    "lat": 47.3828,
+    "lng": 8.5042
+  },
+  "Çaykur Rizespor": {
+    "lat": 41.046629,
+    "lng": 40.5874538
+  },
+  "Étoile du Sahel": {
+    "lat": 35.8238703,
+    "lng": 10.6069105
+  },
+  "İstanbul Başakşehir": {
+    "lat": 41.1075794,
+    "lng": 28.7950711
+  },
+  "Leicester City": {
+    "lat": 52.6204,
+    "lng": -1.1421
+  },
+  "Ipswich Town": {
+    "lat": 52.055,
+    "lng": 1.1452
+  },
+  "Coventry City": {
+    "lat": 52.4481,
+    "lng": -1.4956
+  },
+  "Luton Town": {
+    "lat": 51.8839,
+    "lng": -0.4316
+  },
+  "Barnsley": {
+    "lat": 53.5523,
+    "lng": -1.4675
+  },
+  "Charlton Athletic": {
+    "lat": 51.4866,
+    "lng": 0.0363
+  },
+  "Marseille": {
+    "lat": 43.2698,
+    "lng": 5.3959
+  },
+  "Nantes": {
+    "lat": 47.2555,
+    "lng": -1.5249
+  },
+  "Toulouse": {
+    "lat": 43.5833,
+    "lng": 1.434
+  },
+  "Cagliari": {
+    "lat": 39.1997,
+    "lng": 9.1351
+  },
+  "Hellas Verona": {
+    "lat": 45.4356,
+    "lng": 10.9686
+  },
+  "Frosinone": {
+    "lat": 41.6336,
+    "lng": 13.3205
+  },
+  "Venezia": {
+    "lat": 45.4279,
+    "lng": 12.3639
+  },
+  "Granada": {
+    "lat": 37.1527,
+    "lng": -3.5956
+  },
+  "Elche": {
+    "lat": 38.2671,
+    "lng": -0.6634
+  },
+  "Levante": {
+    "lat": 39.4951,
+    "lng": -0.3643
+  },
+  "Racing Santander": {
+    "lat": 43.4754,
+    "lng": -3.7931
+  },
+  "AZ": {
+    "lat": 52.612,
+    "lng": 4.7421
+  },
+  "Twente": {
+    "lat": 52.2367,
+    "lng": 6.8377
+  },
+  "Utrecht": {
+    "lat": 52.0784,
+    "lng": 5.1453
+  },
+  "Heracles Almelo": {
+    "lat": 52.338,
+    "lng": 6.6833
+  },
+  "Antwerp": {
+    "lat": 51.2305,
+    "lng": 4.3942
+  },
+  "Mechelen": {
+    "lat": 51.0357,
+    "lng": 4.4595
+  },
+  "Heart of Midlothian": {
+    "lat": 55.9495,
+    "lng": -3.2004
+  },
+  "Hibernian": {
+    "lat": 55.9617,
+    "lng": -3.1656
+  },
+  "Olympiacos": {
+    "lat": 37.9464,
+    "lng": 23.6929
+  },
+  "PAOK": {
+    "lat": 40.6131,
+    "lng": 22.9724
+  },
+  "AEK Athens": {
+    "lat": 38.0363,
+    "lng": 23.7415
+  },
+  "Dynamo Moscow": {
+    "lat": 55.7915,
+    "lng": 37.5608
+  },
+  "Lokomotiv Moscow": {
+    "lat": 55.8038,
+    "lng": 37.7404
+  },
+  "Rostov": {
+    "lat": 47.2102,
+    "lng": 39.7376
+  },
+  "Sturm Graz": {
+    "lat": 47.0478,
+    "lng": 15.4529
+  },
+  "LASK": {
+    "lat": 48.2954,
+    "lng": 14.2758
+  },
+  "Slavia Prague": {
+    "lat": 50.0675,
+    "lng": 14.4936
+  },
+  "Sparta Prague": {
+    "lat": 50.0999,
+    "lng": 14.416
+  },
+  "AGF": {
+    "lat": 56.1321,
+    "lng": 10.1965
+  },
+  "Randers": {
+    "lat": 56.4639,
+    "lng": 10.0102
+  },
+  "Corinthians": {
+    "lat": -23.5453,
+    "lng": -46.4742
+  },
+  "Fluminense": {
+    "lat": -22.8933,
+    "lng": -43.2284
+  },
+  "Palmeiras": {
+    "lat": -23.5276,
+    "lng": -46.6786
+  },
+  "Internacional": {
+    "lat": -30.0657,
+    "lng": -51.2362
+  },
+  "Athletico Paranaense": {
+    "lat": -25.4207,
+    "lng": -49.2757
+  },
+  "Atlético Mineiro": {
+    "lat": -19.8658,
+    "lng": -43.9709
+  },
+  "Boca Juniors": {
+    "lat": -34.6356,
+    "lng": -58.3648
+  },
+  "River Plate": {
+    "lat": -34.5453,
+    "lng": -58.4495
+  },
+  "Lanús": {
+    "lat": -34.7142,
+    "lng": -58.3848
+  },
+  "Estudiantes": {
+    "lat": -34.9169,
+    "lng": -57.9496
+  },
+  "Rosario Central": {
+    "lat": -32.9333,
+    "lng": -60.6667
+  },
+  "San Lorenzo": {
+    "lat": -34.6355,
+    "lng": -58.4136
+  },
+  "Atlanta United FC": {
+    "lat": 33.7555,
+    "lng": -84.401
+  },
+  "Austin FC": {
+    "lat": 30.3881,
+    "lng": -97.7189
+  },
+  "Charlotte FC": {
+    "lat": 35.2252,
+    "lng": -80.8516
+  },
+  "Inter Miami CF": {
+    "lat": 25.9579,
+    "lng": -80.239
+  },
+  "FC Cincinnati": {
+    "lat": 39.1114,
+    "lng": -84.522
+  },
+  "Nashville SC": {
+    "lat": 36.1305,
+    "lng": -86.7655
+  },
+  "Seattle Sounders FC": {
+    "lat": 47.5951,
+    "lng": -122.3316
+  },
+  "New York City FC": {
+    "lat": 40.8296,
+    "lng": -73.9262
+  },
+  "Real Salt Lake": {
+    "lat": 40.583,
+    "lng": -112.0086
+  },
+  "Colorado Rapids": {
+    "lat": 39.805,
+    "lng": -104.8929
+  },
+  "New England Revolution": {
+    "lat": 42.0909,
+    "lng": -71.2643
+  },
+  "Chicago Fire FC": {
+    "lat": 41.8611,
+    "lng": -87.6186
+  },
+  "Guadalajara": {
+    "lat": 20.6817,
+    "lng": -103.4628
+  },
+  "América": {
+    "lat": 19.4336,
+    "lng": -99.1043
+  },
+  "Cruz Azul": {
+    "lat": 19.3058,
+    "lng": -99.151
+  },
+  "Monterrey": {
+    "lat": 25.7228,
+    "lng": -100.3118
+  },
+  "Pachuca": {
+    "lat": 20.1054,
+    "lng": -98.7543
+  },
+  "Pumas UNAM": {
+    "lat": 19.3319,
+    "lng": -99.1921
+  },
+  "Santos Laguna": {
+    "lat": 25.6297,
+    "lng": -103.3778
+  },
+  "León": {
+    "lat": 21.1158,
+    "lng": -101.6575
+  },
+  "Atlas": {
+    "lat": 20.7002,
+    "lng": -103.3627
+  },
+  "Juárez": {
+    "lat": 31.7561,
+    "lng": -106.4615
+  },
+  "Mazatlán": {
+    "lat": 23.2784,
+    "lng": -106.4236
+  },
+  "Kaizer Chiefs": {
+    "lat": -26.235,
+    "lng": 27.9835
+  },
+  "Mamelodi Sundowns": {
+    "lat": -25.7741,
+    "lng": 28.2191
+  },
+  "Orlando Pirates": {
+    "lat": -26.2323,
+    "lng": 27.9198
+  },
+  "Melbourne City": {
+    "lat": -37.8252,
+    "lng": 144.9842
+  },
+  "Melbourne Victory": {
+    "lat": -37.8253,
+    "lng": 144.9847
+  },
+  "Sydney FC": {
+    "lat": -33.8891,
+    "lng": 151.2257
+  },
+  "Machida Zelvia": {
+    "lat": 35.5958,
+    "lng": 139.4277
+  },
+  "Albirex Niigata": {
+    "lat": 37.8823,
+    "lng": 139.0583
+  },
+  "FC Seoul": {
+    "lat": 37.5683,
+    "lng": 126.8972
+  },
+  "Molde": {
+    "lat": 62.7338,
+    "lng": 7.1411
+  },
+  "Lechia Gdańsk": {
+    "lat": 54.3928,
+    "lng": 18.6416
+  },
+  "Independiente del Valle": {
+    "lat": -0.2809,
+    "lng": -78.5069
+  },
+  "Cerro Porteño": {
+    "lat": -25.2922,
+    "lng": -57.657
+  },
+  "Olimpia": {
+    "lat": -25.2923,
+    "lng": -57.6098
+  },
+  "Nacional": {
+    "lat": -34.8943,
+    "lng": -56.1575
+  },
+  "Cobresal": {
+    "lat": -26.0558,
+    "lng": -69.8435
+  },
+  "Hajduk Split": {
+    "lat": 43.5212,
+    "lng": 16.434
+  },
+  "Saprissa": {
+    "lat": 9.9655,
+    "lng": -84.1086
+  },
+  "Hearts of Oak": {
+    "lat": 5.5525,
+    "lng": -0.192
+  },
+  "Ironi Kiryat Shmona": {
+    "lat": 33.204,
+    "lng": 35.5695
+  },
+  "Al-Ettifaq": {
+    "lat": 26.3842,
+    "lng": 50.1967
+  },
+  "Al-Fateh": {
+    "lat": 25.3047,
+    "lng": 49.5975
+  },
+  "Al-Fayha": {
+    "lat": 26.3566,
+    "lng": 43.9776
+  },
+  "Al-Qadsiah": {
+    "lat": 26.3569,
+    "lng": 50.1669
+  },
+  "Al-Shabab": {
+    "lat": 24.7373,
+    "lng": 46.6655
+  },
+  "Al-Sadd": {
+    "lat": 25.268,
+    "lng": 51.4973
+  },
+  "Al-Duhail": {
+    "lat": 25.3742,
+    "lng": 51.4703
+  },
+  "Al-Rayyan": {
+    "lat": 25.3293,
+    "lng": 51.3389
+  },
+  "Al-Gharafa": {
+    "lat": 25.3501,
+    "lng": 51.4404
+  },
+  "Al Wahda": {
+    "lat": 24.4447,
+    "lng": 54.3881
+  },
+  "Shabab Al Ahli": {
+    "lat": 25.2582,
+    "lng": 55.3047
+  },
+  "Persepolis": {
+    "lat": 35.7458,
+    "lng": 51.2897
+  },
+  "Sepahan": {
+    "lat": 32.6197,
+    "lng": 51.7106
+  },
+  "Raja Casablanca": {
+    "lat": 33.5833,
+    "lng": -7.65
+  },
+  "Pakhtakor": {
+    "lat": 41.316,
+    "lng": 69.257
+  },
+  "Nasaf": {
+    "lat": 38.85,
+    "lng": 65.7833
+  },
+  "Navbahor Namangan": {
+    "lat": 40.9933,
+    "lng": 71.665
+  },
+  "Neftchi Fergana": {
+    "lat": 40.3833,
+    "lng": 71.7833
+  },
+  "AGMK": {
+    "lat": 40.8333,
+    "lng": 69.6
+  },
+  "Bukhara": {
+    "lat": 39.7667,
+    "lng": 64.4167
+  },
+  "Dinamo Samarqand": {
+    "lat": 39.65,
+    "lng": 66.95
+  },
+  "Surkhon Termiz": {
+    "lat": 37.2167,
+    "lng": 67.2833
+  },
+  "Al-Shorta": {
+    "lat": 33.345,
+    "lng": 44.3977
+  },
+  "Al-Zawraa": {
+    "lat": 33.35,
+    "lng": 44.413
+  },
+  "Al-Quwa Al-Jawiya": {
+    "lat": 33.3153,
+    "lng": 44.3661
+  },
+  "Al-Talaba": {
+    "lat": 33.3153,
+    "lng": 44.3661
+  },
+  "Al-Karma": {
+    "lat": 33.3153,
+    "lng": 44.3661
+  },
+  "Al-Wehdat": {
+    "lat": 31.985,
+    "lng": 35.905
+  },
+  "Al-Faisaly": {
+    "lat": 31.98,
+    "lng": 35.91
+  },
+  "Al-Hussein": {
+    "lat": 32.5,
+    "lng": 35.85
+  },
+  "Foolad": {
+    "lat": 31.32,
+    "lng": 48.67
+  },
+  "Malavan": {
+    "lat": 37.47,
+    "lng": 49.46
+  },
+  "Tractor": {
+    "lat": 38.08,
+    "lng": 46.29
+  },
+  "Al-Arabi": {
+    "lat": 25.287,
+    "lng": 51.531
+  },
+  "Qatar SC": {
+    "lat": 25.285,
+    "lng": 51.531
+  },
+  "Al-Sailiya": {
+    "lat": 25.31,
+    "lng": 51.37
+  },
+  "Al-Shamal": {
+    "lat": 26.1,
+    "lng": 51.2333
+  },
+  "Al Nasr": {
+    "lat": 25.2533,
+    "lng": 55.2975
+  },
+  "Baniyas": {
+    "lat": 24.3667,
+    "lng": 54.6333
+  },
+  "Kalba": {
+    "lat": 25.05,
+    "lng": 56.3667
+  },
+  "Al Dhafra": {
+    "lat": 24.15,
+    "lng": 54.3
+  },
+  "Dibba": {
+    "lat": 25.6167,
+    "lng": 56.2667
+  },
+  "Tigres UANL": {
+    "lat": 25.6667,
+    "lng": -100.2833
+  },
+  "Toluca": {
+    "lat": 19.2875,
+    "lng": -99.6667
+  },
+  "Tijuana": {
+    "lat": 32.53,
+    "lng": -117.0174
+  },
+  "São Paulo": {
+    "lat": -23.6,
+    "lng": -46.7167
+  },
+  "Vasco da Gama": {
+    "lat": -22.8917,
+    "lng": -43.2278
+  },
+  "Red Bull Bragantino": {
+    "lat": -22.9654,
+    "lng": -46.537
+  },
+  "Huracán": {
+    "lat": -34.6433,
+    "lng": -58.3915
+  },
+  "Independiente": {
+    "lat": -34.67,
+    "lng": -58.37
+  },
+  "Vélez Sarsfield": {
+    "lat": -34.6355,
+    "lng": -58.5208
+  },
+  "Talleres": {
+    "lat": -31.3833,
+    "lng": -64.1833
+  },
+  "Independiente Rivadavia": {
+    "lat": -32.8833,
+    "lng": -68.85
+  },
+  "Southampton": {
+    "lat": 50.9058,
+    "lng": -1.3911
+  },
+  "Portsmouth": {
+    "lat": 50.7965,
+    "lng": -1.0639
+  },
+  "APOEL": {
+    "lat": 35.115,
+    "lng": 33.36
+  },
+  "AEK Larnaca": {
+    "lat": 34.9267,
+    "lng": 33.5983
+  },
+  "AEL Limassol": {
+    "lat": 34.69,
+    "lng": 33.06
+  },
+  "Borac Banja Luka": {
+    "lat": 44.7725,
+    "lng": 17.1939
+  },
+  "St. Gallen": {
+    "lat": 47.4167,
+    "lng": 9.3667
+  },
+  "Győri ETO": {
+    "lat": 47.6875,
+    "lng": 17.6504
+  },
+  "Slovan Bratislava": {
+    "lat": 48.16,
+    "lng": 17.13
+  },
+  "Cracovia": {
+    "lat": 50.058,
+    "lng": 19.92
+  },
+  "Pogoń Szczecin": {
+    "lat": 53.4364,
+    "lng": 14.5193
+  },
+  "Universidad Católica": {
+    "lat": -0.223,
+    "lng": -78.512
+  },
+  "Atlético Nacional": {
+    "lat": 6.256,
+    "lng": -75.59
+  },
+  "Marathón": {
+    "lat": 15.5,
+    "lng": -88.0167
+  },
+  "Plaza Amador": {
+    "lat": 9.0,
+    "lng": -79.5333
+  },
+  "USM Alger": {
+    "lat": 36.7167,
+    "lng": 3.0333
+  },
+  "JS Kabylie": {
+    "lat": 36.75,
+    "lng": 4.05
+  },
+  "AS FAR": {
+    "lat": 34.0209,
+    "lng": -6.8416
+  },
+  "RS Berkane": {
+    "lat": 34.9167,
+    "lng": -2.3167
+  },
+  "ZED": {
+    "lat": 30.05,
+    "lng": 31.2333
+  },
+  "Sarpsborg 08": {
+    "lat": 59.2833,
+    "lng": 11.1167
+  },
+  "Persib": {
+    "lat": -6.95,
+    "lng": 107.5833
+  },
+  "Selangor": {
+    "lat": 3.0833,
+    "lng": 101.55
+  },
+  "Port": {
+    "lat": 13.75,
+    "lng": 100.5167
+  },
+  "St Patrick's Athletic": {
+    "lat": 53.3333,
+    "lng": -6.25
+  },
+  "Grazer AK": {
+    "lat": 47.0667,
+    "lng": 15.45
+  },
+  "Wolfsberger AC": {
+    "lat": 46.8333,
+    "lng": 14.85
+  },
+  "AEL": {
+    "lat": 39.6167,
+    "lng": 22.4
+  },
+  "Turan Tovuz": {
+    "lat": 40.9833,
+    "lng": 45.6167
+  },
+  "Cultural Leonesa": {
+    "lat": 42.6,
+    "lng": -5.5667
+  },
+  "Stade Nyonnais": {
+    "lat": 46.3833,
+    "lng": 6.2333
+  },
+  "Hradec Králové": {
+    "lat": 50.2,
+    "lng": 15.8333
+  },
+  "Dender EH": {
+    "lat": 50.9333,
+    "lng": 4.05
+  },
+  "Pari Nizhny Novgorod": {
+    "lat": 56.3,
+    "lng": 43.9333
+  },
+  "Tondela": {
+    "lat": 40.5167,
+    "lng": -8.0833
+  },
+  "Vitória de Guimarães": {
+    "lat": 41.45,
+    "lng": -8.3
+  },
+  "Deportivo La Guaira": {
+    "lat": 10.6,
+    "lng": -66.9333
+  },
+  "Puerto Cabello": {
+    "lat": 10.4667,
+    "lng": -68.0167
+  },
+  "Universidad de Concepción": {
+    "lat": -36.8167,
+    "lng": -73.05
+  },
+  "Polokwane City": {
+    "lat": -23.9,
+    "lng": 29.4667
+  },
+  "Siwelele": {
+    "lat": -28.1833,
+    "lng": 26.2167
+  },
+  "Al-Ula": {
+    "lat": 26.6167,
+    "lng": 37.9167
+  },
+  "Neom": {
+    "lat": 28.0,
+    "lng": 35.2
   }
 }

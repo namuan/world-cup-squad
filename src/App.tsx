@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, GeoJSON, useMap, Polyline, Tooltip, CircleMarker } from 'react-leaflet'
+import { MapContainer, TileLayer, GeoJSON, useMap, Polyline, Tooltip, CircleMarker, Popup } from 'react-leaflet'
 import type { LatLngBoundsExpression, PathOptions, Map } from 'leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -225,6 +225,36 @@ function WorldMap() {
 
   const countryCenters = useMemo(() => getCountryCenter(features), [features])
 
+  function mergeNearbyArcs(arcs: ConnectionArc[]): ConnectionArc[] {
+    const threshold = 0.04 // merge destinations within ~4.5 km
+    const merged: ConnectionArc[] = []
+    for (const arc of arcs) {
+      let found = false
+      for (const existing of merged) {
+        const dlat = arc.to.lat - existing.to.lat
+        const dlng = arc.to.lng - existing.to.lng
+        if (Math.sqrt(dlat * dlat + dlng * dlng) < threshold) {
+          existing.players = [...existing.players, ...arc.players]
+          existing.count += arc.count
+          const uniqueClubs = [...new Set(existing.players.map((p) => p.club))]
+          existing.toName =
+            uniqueClubs.length === 1
+              ? uniqueClubs[0]
+              : `${uniqueClubs.length} clubs`
+          if (arc.to.lat > existing.to.lat) {
+            existing.to = arc.to
+          }
+          found = true
+          break
+        }
+      }
+      if (!found) {
+        merged.push({ ...arc, players: [...arc.players] })
+      }
+    }
+    return merged
+  }
+
   const connectionArcs = useMemo(() => {
     const grouped: Record<string, ConnectionArc[]> = {}
 
@@ -264,10 +294,15 @@ function WorldMap() {
       const arcs: ConnectionArc[] = []
       for (const [, dest] of Object.entries(destMap)) {
         if (dest.players.length > 0) {
+          const uniqueClubs = [...new Set(dest.players.map((p) => p.club))]
+          const label =
+            uniqueClubs.length === 1
+              ? uniqueClubs[0]
+              : `${uniqueClubs.length} clubs`
           arcs.push({
             from: teamCenter,
             to: dest.center,
-            toName: dest.toName,
+            toName: label,
             color: teamColor,
             count: dest.players.length,
             players: dest.players,
@@ -275,8 +310,12 @@ function WorldMap() {
         }
       }
 
-      if (arcs.length > 0) {
-        grouped[teamGeoName] = arcs
+      // Merge arcs whose destinations are very close (<~3 km) to avoid
+      // overlapping labels when multiple clubs share the same city.
+      const merged = mergeNearbyArcs(arcs)
+
+      if (merged.length > 0) {
+        grouped[teamGeoName] = merged
       }
     }
     return grouped
@@ -374,7 +413,7 @@ function WorldMap() {
       />
       {visibleArcs.map((arc, i) => {
         const count = arc.players.length
-        const radius = 0.8 + count * 0.15
+        const markerRadius = Math.min(3 + count * 0.15, 10)
         return (
           <div key={i}>
             <Polyline
@@ -385,29 +424,34 @@ function WorldMap() {
               smoothFactor={1}
               interactive={false}
             />
-            {arc.players.map((player, j) => {
-              const angle = (j / count) * Math.PI * 2 - Math.PI / 2
-              const lat = arc.to.lat + Math.cos(angle) * radius
-              const lng = arc.to.lng + Math.sin(angle) * radius
-              return (
-                <CircleMarker
-                  key={j}
-                  center={L.latLng(lat, lng)}
-                  radius={0}
-                  fillOpacity={0}
-                  opacity={0}
-                  stroke={false}
-                  interactive={false}
-                >
-                  <Tooltip permanent direction="center" className="player-label">
-                    <div>{player.name}</div>
-                    <div style={{ fontWeight: 400, fontSize: 8, opacity: 0.7 }}>
-                      ({player.club})
+            <CircleMarker
+              center={arc.to}
+              radius={markerRadius}
+              fillColor={arc.color}
+              fillOpacity={0.6}
+              color="#ffffff"
+              weight={1}
+              opacity={0.9}
+              stroke={true}
+              interactive={true}
+            >
+              <Tooltip permanent direction="auto" className="club-label" offset={[6, 0]}>
+                <span style={{ fontWeight: 600 }}>{arc.toName}</span>
+                <span style={{ marginLeft: 4, opacity: 0.55 }}>
+                  · {count}
+                </span>
+              </Tooltip>
+              <Popup className="club-popup">
+                <div className="popup-scroll">
+                  {arc.players.map((p, j) => (
+                    <div key={j} className="popup-row">
+                      <div className="popup-name">{p.name}</div>
+                      <div className="popup-club">{p.club}</div>
                     </div>
-                  </Tooltip>
-                </CircleMarker>
-              )
-            })}
+                  ))}
+                </div>
+              </Popup>
+            </CircleMarker>
           </div>
         )
       })}
