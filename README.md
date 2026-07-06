@@ -32,14 +32,32 @@ npm run typecheck  # run TypeScript checks
 
 - `data/squads.json` contains squad/player data.
 - `data/club_coords.json` contains club coordinates used for map connections.
-- `data/countries.json` contains GeoJSON country shapes.
+- `data/countries.json` contains GeoJSON country shapes (Natural Earth 10m Admin 0).
 - `raw_data/` contains source HTML snapshots used to assemble the dataset.
 
-Squad data can be refreshed from the Wikipedia 2026 FIFA World Cup squads page:
+### Regenerating squad data
 
 ```bash
 python3 scripts/update_squads_from_wikipedia.py
 ```
+
+### Regenerating country boundaries
+
+The UK is represented as four separate features (England, Scotland, Wales, Northern
+Ireland) rather than a single "United Kingdom" polygon, so each nation has its own
+clickable area and connection arc origin on the map.
+
+To regenerate `data/countries.json` from scratch (e.g. after a Natural Earth update):
+
+```bash
+./scripts/update_countries_geojson.py                    # first run (downloads data)
+./scripts/update_countries_geojson.py --skip-download     # subsequent runs
+```
+
+The script downloads the Natural Earth 10m Admin 1 (states/provinces) dataset,
+extracts UK features dissolved by `geonunit`, and merges them into the Admin 0
+boundaries in place of the single UK feature. It requires Node.js (for
+[mapshaper](https://github.com/mbloch/mapshaper)) and Python 3.13+ (for `uv`).
 
 ## GitHub Pages deployment
 
